@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="390" height="844" fill="#F7F9FC"/>
+  
+  <!-- 状态栏 -->
+  <rect width="390" height="44" fill="#1E3A8A"/>
+  <text x="195" y="27" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">多点配送路线规划</text>
+  
+  <!-- 标题栏 -->
+  <rect x="0" y="44" width="390" height="60" fill="#FFFFFF"/>
+  <text x="20" y="80" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="18" fill="#1E3A8A" font-weight="bold">方案 #MP20240515</text>
+  <rect x="320" y="62" width="50" height="24" rx="12" fill="#E2E8F0"/>
+  <text x="345" y="78" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#475569" text-anchor="middle">发送</text>
+  
+  <!-- 配送基础信息卡片 -->
+  <rect x="20" y="114" width="350" height="100" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" filter="drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.05))"/>
+  
+  <!-- 基础信息指标 -->
+  <text x="40" y="139" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#0F172A" font-weight="bold">配送概览</text>
+  
+  <rect x="40" y="149" width="95" height="50" rx="8" fill="#F0F9FF"/>
+  <text x="87" y="169" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#0C4A6E" text-anchor="middle">配送点</text>
+  <text x="87" y="189" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#0C4A6E" font-weight="bold" text-anchor="middle">3个</text>
+  
+  <rect x="145" y="149" width="95" height="50" rx="8" fill="#F0FDF4"/>
+  <text x="192" y="169" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#166534" text-anchor="middle">总货量</text>
+  <text x="192" y="189" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#166534" font-weight="bold" text-anchor="middle">2.8吨</text>
+  
+  <rect x="250" y="149" width="95" height="50" rx="8" fill="#EFF6FF"/>
+  <text x="297" y="169" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#1E40AF" text-anchor="middle">总距离</text>
+  <text x="297" y="189" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#1E40AF" font-weight="bold" text-anchor="middle">12公里</text>
+  
+  <!-- 路线地图 -->
+  <rect x="20" y="224" width="350" height="200" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" filter="drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.05))"/>
+  
+  <!-- 地图背景 -->
+  <rect x="30" y="234" width="330" height="180" rx="12" fill="#F1F5F9"/>
+  <text x="195" y="324" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">地图加载中...</text>
+  
+  <!-- 模拟地图上的路线 -->
+  <circle cx="70" cy="294" r="8" fill="#3B82F6" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="70" y="280" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#1E3A8A" text-anchor="middle">仓库</text>
+  
+  <circle cx="170" cy="264" r="8" fill="#F59E0B" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="170" y="250" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#92400E" text-anchor="middle">零售商A</text>
+  
+  <circle cx="240" cy="324" r="8" fill="#F59E0B" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="240" y="310" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#92400E" text-anchor="middle">零售商B</text>
+  
+  <circle cx="310" cy="374" r="8" fill="#F59E0B" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="310" y="360" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#92400E" text-anchor="middle">零售商C</text>
+  
+  <!-- 路线连接线 -->
+  <path d="M70 294 L170 264 L240 324 L310 374" stroke="#3B82F6" stroke-width="3" stroke-dasharray="0 0" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- 零售商详情列表 -->
+  <text x="20" y="449" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#0F172A" font-weight="bold">配送明细</text>
+  
+  <!-- 零售商A -->
+  <rect x="20" y="459" width="350" height="100" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" filter="drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.05))"/>
+  <circle cx="40" cy="479" r="10" fill="#F1F5F9" stroke="#475569" stroke-width="1"/>
+  <text x="40" y="483" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#475569" text-anchor="middle" font-weight="bold">1</text>
+  
+  <text x="60" y="479" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#0F172A" font-weight="bold">零售商A: 深圳市民生超市连锁有限公司</text>
+  <text x="60" y="499" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">订单号: DD202405150023</text>
+  <text x="60" y="519" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">送达地址: 深圳市宝安区民治大道12号</text>
+  <text x="60" y="539" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">货物: 饮料、零食等 | 货量: 1.2吨 | 到达: 10:30</text>
+  
+  <rect x="290" y="499" width="60" height="25" rx="4" fill="#4F46E5"/>
+  <text x="320" y="516" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle">查看</text>
+  
+  <!-- 零售商B -->
+  <rect x="20" y="569" width="350" height="100" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" filter="drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.05))"/>
+  <circle cx="40" cy="589" r="10" fill="#F1F5F9" stroke="#475569" stroke-width="1"/>
+  <text x="40" y="593" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#475569" text-anchor="middle" font-weight="bold">2</text>
+  
+  <text x="60" y="589" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#0F172A" font-weight="bold">零售商B: 广州众诚贸易有限公司</text>
+  <text x="60" y="609" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">订单号: DD202405140048</text>
+  <text x="60" y="629" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">送达地址: 广州市白云区黄石西路88号</text>
+  <text x="60" y="649" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">货物: 调味品、罐头等 | 货量: 0.9吨 | 到达: 11:15</text>
+  
+  <rect x="290" y="609" width="60" height="25" rx="4" fill="#4F46E5"/>
+  <text x="320" y="626" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle">查看</text>
+  
+  <!-- 零售商C -->
+  <rect x="20" y="679" width="350" height="100" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" filter="drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.05))"/>
+  <circle cx="40" cy="699" r="10" fill="#F1F5F9" stroke="#475569" stroke-width="1"/>
+  <text x="40" y="703" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#475569" text-anchor="middle" font-weight="bold">3</text>
+  
+  <text x="60" y="699" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#0F172A" font-weight="bold">零售商C: 东莞市好又多商贸有限公司</text>
+  <text x="60" y="719" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">订单号: DD202405150012</text>
+  <text x="60" y="739" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">送达地址: 东莞市长安镇德政中路68号</text>
+  <text x="60" y="759" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">货物: 饮料、零食等 | 货量: 0.7吨 | 到达: 12:00</text>
+  
+  <rect x="290" y="719" width="60" height="25" rx="4" fill="#4F46E5"/>
+  <text x="320" y="736" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle">查看</text>
+  
+  <!-- 底部导航栏 -->
+  <rect x="0" y="784" width="390" height="60" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  
+  <!-- 首页图标 -->
+  <circle cx="50" cy="809" r="22" fill="#F1F5F9"/>
+  <path d="M50 799 L38 809 L38 824 L62 824 L62 809 Z" stroke="#64748B" stroke-width="2" fill="none"/>
+  <text x="50" y="834" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#64748B" text-anchor="middle">首页</text>
+  
+  <!-- 订单图标 -->
+  <circle cx="130" cy="809" r="22" fill="#F1F5F9"/>
+  <rect x="118" y="799" width="24" height="20" stroke="#64748B" stroke-width="2" fill="none" rx="2"/>
+  <line x1="118" y1="805" x2="142" y2="805" stroke="#64748B" stroke-width="2"/>
+  <text x="130" y="834" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#64748B" text-anchor="middle">订单</text>
+  
+  <!-- 车辆图标 -->
+  <circle cx="210" cy="809" r="22" fill="#F1F5F9"/>
+  <path d="M200 802 L220 802 L223 809 L197 809 Z" stroke="#64748B" stroke-width="2" fill="none"/>
+  <circle cx="202" cy="816" r="4" stroke="#64748B" stroke-width="2" fill="none"/>
+  <circle cx="218" cy="816" r="4" stroke="#64748B" stroke-width="2" fill="none"/>
+  <text x="210" y="834" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#64748B" text-anchor="middle">车辆</text>
+  
+  <!-- 调度图标 (激活状态) -->
+  <circle cx="290" cy="809" r="24" fill="#1E3A8A"/>
+  <rect x="280" y="799" width="12" height="10" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M292 809 L280 809 L280 799" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <circle cx="283" cy="814" r="3" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <circle cx="292" cy="814" r="3" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <text x="290" y="834" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#1E3A8A" text-anchor="middle" font-weight="bold">调度</text>
+  
+  <!-- 我的图标 -->
+  <circle cx="350" cy="809" r="22" fill="#F1F5F9"/>
+  <circle cx="350" cy="804" r="8" stroke="#64748B" stroke-width="2" fill="none"/>
+  <path d="M338 824 C338 816 362 816 362 824" stroke="#64748B" stroke-width="2" fill="none"/>
+  <text x="350" y="834" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#64748B" text-anchor="middle">我的</text>
+</svg>

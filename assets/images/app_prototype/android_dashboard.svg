@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1F57A4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0A2B5E;stop-opacity:1" />
+    </linearGradient>
+    <style>
+      @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Roboto');
+      }
+      .status-bar {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        fill: #FFFFFF;
+      }
+      .header-text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        fill: #ffffff;
+      }
+      .title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        fill: #333333;
+      }
+      .card-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        fill: #333333;
+      }
+      .text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        fill: #333333;
+      }
+      .label {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        fill: #666666;
+      }
+      .value {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        fill: #1F57A4;
+      }
+      .nav-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        fill: #999999;
+      }
+      .nav-text-active {
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        fill: #1F57A4;
+      }
+      .card {
+        fill: white;
+        stroke: none;
+        rx: 4;
+        ry: 4;
+        filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.1));
+      }
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#F5F7FA" />
+  
+  <!-- 设计说明 -->
+  <text x="150" y="40" font-family="'Roboto', sans-serif" font-size="24px" font-weight="bold" fill="#1F57A4">Android应用原型 - 工作台界面</text>
+  
+  <!-- 设备框架 -->
+  <rect x="300" y="80" width="280" height="480" rx="20" ry="20" fill="#111111" />
+  <rect x="307" y="87" width="266" height="466" rx="14" ry="14" fill="#F5F7FA" />
+  
+  <!-- 状态栏 -->
+  <rect x="307" y="87" width="266" height="24" fill="#121212" />
+  <text x="325" y="103" class="status-bar">9:41</text>
+  <text x="550" y="103" text-anchor="end" class="status-bar">●●●</text>
+  
+  <!-- 头部区域 -->
+  <rect x="307" y="111" width="266" height="56" fill="url(#headerGradient)" />
+  <text x="340" y="145" font-family="'Roboto', sans-serif" font-size="20px" font-weight="500" fill="#FFFFFF">销售工作台</text>
+  <circle cx="540" cy="139" r="15" fill="#FFFFFF" opacity="0.2" />
+  <text x="540" y="144" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="14px" fill="#FFFFFF">王</text>
+  
+  <!-- 内容区域 - 平滑边缘 -->
+  <rect x="307" y="167" width="266" height="346" fill="#F5F7FA" />
+  
+  <!-- 欢迎区域 - Material卡片 -->
+  <rect x="317" y="177" width="246" height="60" class="card" />
+  <text x="330" y="205" font-family="'Roboto', sans-serif" font-size="16px" fill="#333333">上午好，王经理</text>
+  <text x="330" y="225" font-family="'Roboto', sans-serif" font-size="12px" fill="#666666">今日有 5 个待处理任务</text>
+  
+  <!-- 数据卡片1 - Material卡片 -->
+  <rect x="317" y="247" width="116" height="100" class="card" />
+  <text x="330" y="272" class="label">本月销售额</text>
+  <text x="330" y="297" class="value">¥128.65万</text>
+  <text x="330" y="317" font-family="'Roboto', sans-serif" font-size="12px" fill="#4CAF50">↑ 12.5%</text>
+  
+  <!-- 数据卡片2 - Material卡片 -->
+  <rect x="447" y="247" width="116" height="100" class="card" />
+  <text x="460" y="272" class="label">订单完成率</text>
+  <text x="460" y="297" class="value">87.5%</text>
+  <text x="460" y="317" font-family="'Roboto', sans-serif" font-size="12px" fill="#4CAF50">↑ 5.2%</text>
+  
+  <!-- 销售数据图表 - Material卡片 -->
+  <rect x="317" y="357" width="246" height="120" class="card" />
+  <text x="330" y="382" class="card-title">销售趋势</text>
+  
+  <!-- 简易线图 -->
+  <polyline points="330,442 350,432 370,437 390,422 410,427 430,412 450,402 470,407 490,397 510,382 530,392" 
+            fill="none" stroke="#1F57A4" stroke-width="2" />
+  <circle cx="330" cy="442" r="3" fill="#1F57A4" />
+  <circle cx="350" cy="432" r="3" fill="#1F57A4" />
+  <circle cx="370" cy="437" r="3" fill="#1F57A4" />
+  <circle cx="390" cy="422" r="3" fill="#1F57A4" />
+  <circle cx="410" cy="427" r="3" fill="#1F57A4" />
+  <circle cx="430" cy="412" r="3" fill="#1F57A4" />
+  <circle cx="450" cy="402" r="3" fill="#1F57A4" />
+  <circle cx="470" cy="407" r="3" fill="#1F57A4" />
+  <circle cx="490" cy="397" r="3" fill="#1F57A4" />
+  <circle cx="510" cy="382" r="3" fill="#1F57A4" />
+  <circle cx="530" cy="392" r="3" fill="#1F57A4" />
+  
+  <line x1="330" y1="447" x2="530" y2="447" stroke="#E0E0E0" stroke-width="1" />
+  
+  <text x="330" y="462" font-family="'Roboto', sans-serif" font-size="10px" fill="#999999">5/1</text>
+  <text x="530" y="462" text-anchor="end" font-family="'Roboto', sans-serif" font-size="10px" fill="#999999">5/31</text>
+  
+  <!-- 悬浮操作按钮 - Material风格 -->
+  <circle cx="540" cy="485" r="25" fill="#1F57A4" filter="drop-shadow(0px 3px 5px rgba(0,0,0,0.2))" />
+  <text x="540" y="491" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="24px" fill="#FFFFFF">+</text>
+  
+  <!-- 底部导航栏 - Material风格 -->
+  <rect x="307" y="513" width="266" height="40" fill="#FFFFFF" />
+  <rect x="307" y="513" width="266" height="1" fill="#E0E0E0" />
+  
+  <text x="340" y="543" text-anchor="middle" class="nav-text">首页</text>
+  <text x="395" y="543" text-anchor="middle" class="nav-text-active">工作台</text>
+  <text x="455" y="543" text-anchor="middle" class="nav-text">订单</text>
+  <text x="510" y="543" text-anchor="middle" class="nav-text">客户</text>
+  <text x="565" y="543" text-anchor="middle" class="nav-text">我的</text>
+  
+  <rect x="390" y="540" width="10" height="2" fill="#1F57A4" />
+  
+  <!-- Android特性说明 -->
+  <rect x="30" y="150" width="220" height="300" fill="none" stroke="#E0E0E0" stroke-width="1" rx="8" ry="8" />
+  <text x="50" y="180" font-family="'Roboto', sans-serif" font-size="16px" font-weight="bold" fill="#1F57A4">Android设计特点</text>
+  <text x="50" y="210" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• Material Design 3.0</text>
+  <text x="50" y="235" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• 卡片阴影效果</text>
+  <text x="50" y="260" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• 符合Android排版规范</text>
+  <text x="50" y="285" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• Material组件库</text>
+  <text x="50" y="310" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• 悬浮操作按钮(FAB)</text>
+  <text x="50" y="335" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• 底部导航栏</text>
+  <text x="50" y="360" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• 自适应布局</text>
+  <text x="50" y="385" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• 支持深色主题</text>
+  <text x="50" y="410" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• 动画过渡效果</text>
+  
+  <!-- 功能说明 -->
+  <rect x="600" y="150" width="170" height="300" fill="none" stroke="#E0E0E0" stroke-width="1" rx="8" ry="8" />
+  <text x="620" y="180" font-family="'Roboto', sans-serif" font-size="16px" font-weight="bold" fill="#1F57A4">工作台功能</text>
+  <text x="620" y="210" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• 销售数据概览</text>
+  <text x="620" y="235" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• 实时业绩监控</text>
+  <text x="620" y="260" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• 个性化任务提醒</text>
+  <text x="620" y="285" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• 销售趋势图表</text>
+  <text x="620" y="310" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• 快速新建订单</text>
+  <text x="620" y="335" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• 离线数据支持</text>
+  <text x="620" y="360" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• 自定义工作台布局</text>
+  <text x="620" y="385" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• 支持桌面小部件</text>
+  <text x="620" y="410" font-family="'Roboto', sans-serif" font-size="14px" fill="#333333">• 多设备同步</text>
+  
+  <!-- 版权信息 -->
+  <text x="440" y="580" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="12px" fill="#999999">© 2025 onlysnow 刘景园</text>
+</svg>

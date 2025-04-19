@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="390" height="844" fill="#F8FAFC"/>
+  
+  <!-- 状态栏 -->
+  <rect width="390" height="44" fill="#475569"/>
+  <text x="195" y="27" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">车辆资源管理</text>
+  
+  <!-- 用户信息栏 -->
+  <rect x="0" y="44" width="390" height="60" fill="#FFFFFF"/>
+  <text x="20" y="80" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="18" fill="#475569" font-weight="bold">车辆管理</text>
+  <rect x="320" y="62" width="50" height="24" rx="12" fill="#E2E8F0"/>
+  <text x="345" y="78" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#475569" text-anchor="middle">筛选</text>
+  
+  <!-- 车辆类型选择 -->
+  <rect x="20" y="114" width="350" height="50" rx="25" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  
+  <rect x="25" y="119" width="110" height="40" rx="20" fill="#475569"/>
+  <text x="80" y="144" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">自备车</text>
+  
+  <rect x="140" y="119" width="110" height="40" rx="20" fill="#FFFFFF"/>
+  <text x="195" y="144" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">长租车</text>
+  
+  <rect x="255" y="119" width="110" height="40" rx="20" fill="#FFFFFF"/>
+  <text x="310" y="144" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">短租车</text>
+  
+  <!-- 车辆统计 -->
+  <rect x="20" y="174" width="170" height="80" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="40" y="199" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#475569">车辆总数</text>
+  <text x="40" y="229" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="24" fill="#475569" font-weight="bold">10</text>
+  
+  <rect x="200" y="174" width="170" height="80" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="220" y="199" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#475569">当前可用</text>
+  <text x="220" y="229" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="24" fill="#475569" font-weight="bold">8</text>
+  
+  <!-- 车辆列表 -->
+  <text x="20" y="274" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#0F172A" font-weight="bold">车辆列表</text>
+  
+  <!-- 车辆1 -->
+  <rect x="20" y="284" width="350" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="20" y="284" width="5" height="90" fill="#22C55E" rx="2"/>
+  <text x="40" y="304" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#0F172A" font-weight="bold">粤B12345</text>
+  <text x="130" y="304" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#22C55E">空闲</text>
+  <text x="40" y="324" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B">车型: 东风多利卡 4.2米</text>
+  <text x="40" y="344" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B">载重: 3吨</text>
+  <text x="40" y="364" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B">司机: 张师傅 (138****1234)</text>
+  <rect x="290" y="319" width="60" height="30" rx="15" fill="#E0F2FE"/>
+  <text x="320" y="339" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#0C4A6E" text-anchor="middle">调度</text>
+  
+  <!-- 车辆2 -->
+  <rect x="20" y="384" width="350" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="20" y="384" width="5" height="90" fill="#22C55E" rx="2"/>
+  <text x="40" y="404" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#0F172A" font-weight="bold">粤B67890</text>
+  <text x="130" y="404" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#22C55E">空闲</text>
+  <text x="40" y="424" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B">车型: 解放J6 6.8米</text>
+  <text x="40" y="444" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B">载重: 5吨</text>
+  <text x="40" y="464" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B">司机: 李师傅 (139****5678)</text>
+  <rect x="290" y="419" width="60" height="30" rx="15" fill="#E0F2FE"/>
+  <text x="320" y="439" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#0C4A6E" text-anchor="middle">调度</text>
+  
+  <!-- 车辆3 -->
+  <rect x="20" y="484" width="350" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="20" y="484" width="5" height="90" fill="#EF4444" rx="2"/>
+  <text x="40" y="504" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#0F172A" font-weight="bold">粤A88888</text>
+  <text x="130" y="504" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#EF4444">配送中</text>
+  <text x="40" y="524" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B">车型: 福田欧马可 5.2米</text>
+  <text x="40" y="544" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B">载重: 4吨</text>
+  <text x="40" y="564" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B">司机: 王师傅 (135****9012)</text>
+  <rect x="290" y="519" width="60" height="30" rx="15" fill="#FEF3C7"/>
+  <text x="320" y="539" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#92400E" text-anchor="middle">跟踪</text>
+  
+  <!-- 车辆4 -->
+  <rect x="20" y="584" width="350" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="20" y="584" width="5" height="90" fill="#EF4444" rx="2"/>
+  <text x="40" y="604" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#0F172A" font-weight="bold">粤B54321</text>
+  <text x="130" y="604" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#EF4444">配送中</text>
+  <text x="40" y="624" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B">车型: 江铃顺达 4.2米</text>
+  <text x="40" y="644" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B">载重: 3吨</text>
+  <text x="40" y="664" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B">司机: 赵师傅 (137****3456)</text>
+  <rect x="290" y="619" width="60" height="30" rx="15" fill="#FEF3C7"/>
+  <text x="320" y="639" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#92400E" text-anchor="middle">跟踪</text>
+  
+  <!-- 维护中车辆 -->
+  <rect x="20" y="684" width="350" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="20" y="684" width="5" height="90" fill="#94A3B8" rx="2"/>
+  <text x="40" y="704" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#0F172A" font-weight="bold">粤B98765</text>
+  <text x="130" y="704" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#94A3B8">维护中</text>
+  <text x="40" y="724" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B">车型: 依维柯 4.2米</text>
+  <text x="40" y="744" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B">预计恢复: 05-18</text>
+  <text x="40" y="764" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#64748B">司机: 钱师傅 (136****7890)</text>
+  <rect x="290" y="719" width="60" height="30" rx="15" fill="#E2E8F0"/>
+  <text x="320" y="739" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#475569" text-anchor="middle">查看</text>
+  
+  <!-- 底部导航栏 -->
+  <rect x="0" y="784" width="390" height="60" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  
+  <!-- 导航图标 -->
+  <g transform="translate(45, 814)">
+    <circle r="18" fill="#F1F5F9"/>
+    <text y="4" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">首页</text>
+  </g>
+  
+  <!-- 订单图标 -->
+  <g transform="translate(125, 814)">
+    <circle r="18" fill="#F1F5F9"/>
+    <text y="4" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">订单</text>
+  </g>
+  
+  <!-- 车辆图标 (激活) -->
+  <g transform="translate(205, 814)">
+    <circle r="18" fill="#F1F5F9"/>
+    <text y="4" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#475569" font-weight="bold" text-anchor="middle">车辆</text>
+  </g>
+  
+  <!-- 物流图标 -->
+  <g transform="translate(285, 814)">
+    <circle r="18" fill="#F1F5F9"/>
+    <text y="4" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">物流</text>
+  </g>
+  
+  <!-- 我的图标 -->
+  <g transform="translate(365, 814)">
+    <circle r="18" fill="#F1F5F9"/>
+    <text y="4" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">我的</text>
+  </g>
+  
+  <!-- 添加车辆按钮 -->
+  <circle cx="340" cy="754" r="25" fill="#475569"/>
+  <text x="340" y="759" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold">+</text>
+</svg>

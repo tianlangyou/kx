@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1F57A4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0A2B5E;stop-opacity:1" />
+    </linearGradient>
+    <style>
+      @font-face {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        src: local('SF Pro Display');
+      }
+      .status-bar {
+        font-family: 'SF Pro Display', sans-serif;
+        font-size: 12px;
+        fill: #000000;
+      }
+      .header-text {
+        font-family: 'SF Pro Display', sans-serif;
+        font-weight: bold;
+        fill: #ffffff;
+      }
+      .title {
+        font-family: 'SF Pro Display', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        fill: #1F57A4;
+      }
+      .text {
+        font-family: 'SF Pro Display', sans-serif;
+        font-size: 14px;
+        fill: #333333;
+      }
+      .label {
+        font-family: 'SF Pro Display', sans-serif;
+        font-size: 14px;
+        fill: #666666;
+      }
+      .button-text {
+        font-family: 'SF Pro Display', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        fill: #FFFFFF;
+      }
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#F5F7FA" />
+  
+  <!-- 设计说明 -->
+  <text x="150" y="40" font-family="'SF Pro Display', sans-serif" font-size="24px" font-weight="bold" fill="#1F57A4">iOS应用原型 - 登录界面</text>
+  
+  <!-- 设备框架 -->
+  <rect x="300" y="80" width="280" height="480" rx="36" ry="36" fill="#111111" />
+  <rect x="307" y="87" width="266" height="466" rx="30" ry="30" fill="#FFFFFF" />
+  
+  <!-- 状态栏 -->
+  <rect x="307" y="87" width="266" height="30" rx="30" ry="30" fill="#FFFFFF" />
+  <text x="325" y="105" class="status-bar">9:41</text>
+  <text x="440" y="105" text-anchor="middle" class="status-bar">●●●●●</text>
+  <text x="555" y="105" text-anchor="end" class="status-bar">100%</text>
+  
+  <!-- Logo和标题 -->
+  <circle cx="440" cy="177" r="40" fill="url(#headerGradient)" />
+  <path d="M425,177 L440,192 L455,177 M430,182 L450,182" stroke="#FFFFFF" stroke-width="3" fill="none" />
+  
+  <text x="440" y="240" text-anchor="middle" class="title">onlysnow快销智链</text>
+  <text x="440" y="265" text-anchor="middle" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#666666">智能B2B销售管理系统</text>
+  
+  <!-- 表单 -->
+  <rect x="325" y="295" width="230" height="46" rx="8" ry="8" fill="#F5F7FA" stroke="#E0E0E0" stroke-width="1" />
+  <text x="345" y="323" class="label">用户名/手机号</text>
+  
+  <rect x="325" y="351" width="230" height="46" rx="8" ry="8" fill="#F5F7FA" stroke="#E0E0E0" stroke-width="1" />
+  <text x="345" y="379" class="label">密码</text>
+  <text x="535" y="379" text-anchor="end" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#1F57A4">显示</text>
+  
+  <!-- 登录按钮 -->
+  <rect x="325" y="417" width="230" height="46" rx="23" ry="23" fill="url(#headerGradient)" />
+  <text x="440" y="445" text-anchor="middle" class="button-text">登 录</text>
+  
+  <!-- 其他选项 -->
+  <text x="380" y="485" text-anchor="middle" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#1F57A4">忘记密码</text>
+  <text x="500" y="485" text-anchor="middle" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#1F57A4">注册账号</text>
+  
+  <!-- 底部导航栏 - iPhone样式 -->
+  <rect x="307" y="513" width="266" height="40" fill="#FFFFFF" />
+  <rect x="417" y="523" width="46" height="5" rx="2.5" ry="2.5" fill="#000000" />
+  
+  <!-- iOS特性说明 -->
+  <rect x="30" y="150" width="220" height="300" fill="none" stroke="#E0E0E0" stroke-width="1" rx="8" ry="8" />
+  <text x="50" y="180" font-family="'SF Pro Display', sans-serif" font-size="16px" font-weight="bold" fill="#1F57A4">iOS设计特点</text>
+  <text x="50" y="210" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• 符合iOS设计规范</text>
+  <text x="50" y="235" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• SF Pro Display字体</text>
+  <text x="50" y="260" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• 圆角设计元素</text>
+  <text x="50" y="285" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• 简洁明了的表单</text>
+  <text x="50" y="310" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• 标准iOS状态栏</text>
+  <text x="50" y="335" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• Home指示器</text>
+  <text x="50" y="360" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• 优雅的色彩渐变</text>
+  <text x="50" y="385" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• 符合iOS操作习惯</text>
+  <text x="50" y="410" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• 支持Face ID/Touch ID</text>
+  
+  <!-- 功能说明 -->
+  <rect x="600" y="150" width="170" height="300" fill="none" stroke="#E0E0E0" stroke-width="1" rx="8" ry="8" />
+  <text x="620" y="180" font-family="'SF Pro Display', sans-serif" font-size="16px" font-weight="bold" fill="#1F57A4">登录功能</text>
+  <text x="620" y="210" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• 账号密码登录</text>
+  <text x="620" y="235" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• 生物识别登录</text>
+  <text x="620" y="260" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• 记住登录状态</text>
+  <text x="620" y="285" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• 密码找回</text>
+  <text x="620" y="310" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• 新用户注册</text>
+  <text x="620" y="335" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• 账号安全保护</text>
+  <text x="620" y="360" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• 多设备同步</text>
+  <text x="620" y="385" font-family="'SF Pro Display', sans-serif" font-size="14px" fill="#333333">• iCloud集成</text>
+  
+  <!-- 版权信息 -->
+  <text x="440" y="580" text-anchor="middle" font-family="'SF Pro Display', sans-serif" font-size="12px" fill="#999999">© 2025 onlysnow 刘景园</text>
+</svg>

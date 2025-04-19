@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="390" height="844" fill="#F9FAFB"/>
+  
+  <!-- 状态栏 -->
+  <rect width="390" height="44" fill="#065F46"/>
+  <text x="195" y="27" font-family="Arial" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">零售商管理平台</text>
+  
+  <!-- 用户信息栏 -->
+  <rect x="0" y="44" width="390" height="80" fill="#FFFFFF"/>
+  <circle cx="45" cy="84" r="24" fill="#065F46"/>
+  <text x="45" y="89" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">惠</text>
+  <text x="85" y="74" font-family="Arial" font-size="16" fill="#2D3748" font-weight="bold">惠民连锁超市</text>
+  <text x="85" y="94" font-family="Arial" font-size="12" fill="#718096">零售商 - 王店长</text>
+  <rect x="310" y="74" width="60" height="24" rx="12" fill="#ECFDF5"/>
+  <text x="340" y="90" font-family="Arial" font-size="12" fill="#065F46" text-anchor="middle">账户</text>
+  
+  <!-- 销售概览区域 -->
+  <rect x="20" y="134" width="350" height="90" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="40" y="154" font-family="Arial" font-size="16" fill="#065F46" font-weight="bold">今日销售</text>
+  
+  <!-- 销售数据卡片 -->
+  <rect x="40" y="164" width="150" height="50" rx="8" fill="#ECFDF5"/>
+  <text x="50" y="184" font-family="Arial" font-size="12" fill="#065F46">销售额</text>
+  <text x="50" y="204" font-family="Arial" font-size="16" fill="#065F46" font-weight="bold">¥25,680</text>
+  <text x="140" y="184" font-family="Arial" font-size="12" fill="#065F46">+18%</text>
+  
+  <rect x="200" y="164" width="150" height="50" rx="8" fill="#ECFDF5"/>
+  <text x="210" y="184" font-family="Arial" font-size="12" fill="#065F46">订单数</text>
+  <text x="210" y="204" font-family="Arial" font-size="16" fill="#065F46" font-weight="bold">236</text>
+  <text x="300" y="184" font-family="Arial" font-size="12" fill="#065F46">+12%</text>
+  
+  <!-- 库存告警区域 -->
+  <rect x="20" y="234" width="350" height="150" rx="16" fill="#FFFBEB" stroke="#FEF3C7" stroke-width="1"/>
+  <text x="40" y="254" font-family="Arial" font-size="16" fill="#D97706" font-weight="bold">库存告警</text>
+  
+  <!-- 商品1 -->
+  <rect x="40" y="264" width="310" height="50" rx="8" fill="#FFFFFF"/>
+  <circle cx="60" cy="289" r="15" fill="#DC2626"/>
+  <text x="60" y="293" font-family="Arial" font-size="10" fill="#FFFFFF" text-anchor="middle">警</text>
+  <text x="85" y="279" font-family="Arial" font-size="14" fill="#2D3748" font-weight="bold">矿泉水 550ml</text>
+  <text x="85" y="299" font-family="Arial" font-size="12" fill="#718096">库存剩余: 15箱 (不足7天)</text>
+  <rect x="270" y="279" width="60" height="20" rx="10" fill="#065F46"/>
+  <text x="300" y="293" font-family="Arial" font-size="10" fill="#FFFFFF" text-anchor="middle">去补货</text>
+  
+  <!-- 商品2 -->
+  <rect x="40" y="324" width="310" height="50" rx="8" fill="#FFFFFF"/>
+  <circle cx="60" cy="349" r="15" fill="#F97316"/>
+  <text x="60" y="353" font-family="Arial" font-size="10" fill="#FFFFFF" text-anchor="middle">低</text>
+  <text x="85" y="339" font-family="Arial" font-size="14" fill="#2D3748" font-weight="bold">功能饮料 330ml</text>
+  <text x="85" y="359" font-family="Arial" font-size="12" fill="#718096">库存剩余: 32箱 (不足14天)</text>
+  <rect x="270" y="339" width="60" height="20" rx="10" fill="#065F46"/>
+  <text x="300" y="353" font-family="Arial" font-size="10" fill="#FFFFFF" text-anchor="middle">去补货</text>
+  
+  <!-- 畅销商品区域 -->
+  <rect x="20" y="394" width="350" height="196" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="40" y="414" font-family="Arial" font-size="16" fill="#2D3748" font-weight="bold">本周畅销产品</text>
+  
+  <!-- 畅销商品1 -->
+  <rect x="40" y="424" width="310" height="50" rx="8" fill="#F8FAFC"/>
+  <circle cx="60" cy="449" r="15" fill="#065F46"/>
+  <text x="60" y="453" font-family="Arial" font-size="10" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="85" y="439" font-family="Arial" font-size="14" fill="#2D3748" font-weight="bold">高端矿泉水 1L</text>
+  <text x="85" y="459" font-family="Arial" font-size="12" fill="#718096">销量: 428箱 | 毛利: 18.5%</text>
+  <text x="320" y="449" font-family="Arial" font-size="12" fill="#065F46" text-anchor="end">↑12%</text>
+  
+  <!-- 畅销商品2 -->
+  <rect x="40" y="484" width="310" height="50" rx="8" fill="#F8FAFC"/>
+  <circle cx="60" cy="509" r="15" fill="#065F46"/>
+  <text x="60" y="513" font-family="Arial" font-size="10" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="85" y="499" font-family="Arial" font-size="14" fill="#2D3748" font-weight="bold">果汁饮料系列</text>
+  <text x="85" y="519" font-family="Arial" font-size="12" fill="#718096">销量: 356箱 | 毛利: 22.3%</text>
+  <text x="320" y="509" font-family="Arial" font-size="12" fill="#065F46" text-anchor="end">↑8%</text>
+  
+  <!-- 畅销商品3 -->
+  <rect x="40" y="544" width="310" height="36" rx="8" fill="#F8FAFC"/>
+  <text x="175" y="566" font-family="Arial" font-size="12" fill="#718096" text-anchor="middle">查看完整畅销榜单 ›</text>
+  
+  <!-- 快捷功能区 -->
+  <text x="40" y="600" font-family="Arial" font-size="16" fill="#2D3748" font-weight="bold">快捷功能</text>
+  
+  <!-- 功能按钮 -->
+  <rect x="20" y="610" width="82" height="82" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="61" cy="640" r="20" fill="#ECFDF5"/>
+  <text x="61" y="645" font-family="Arial" font-size="12" fill="#065F46" text-anchor="middle">订</text>
+  <text x="61" y="675" font-family="Arial" font-size="12" fill="#2D3748" text-anchor="middle">下单</text>
+  
+  <rect x="112" y="610" width="82" height="82" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="153" cy="640" r="20" fill="#ECFDF5"/>
+  <text x="153" y="645" font-family="Arial" font-size="12" fill="#065F46" text-anchor="middle">库</text>
+  <text x="153" y="675" font-family="Arial" font-size="12" fill="#2D3748" text-anchor="middle">库存</text>
+  
+  <rect x="204" y="610" width="82" height="82" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="245" cy="640" r="20" fill="#ECFDF5"/>
+  <text x="245" y="645" font-family="Arial" font-size="12" fill="#065F46" text-anchor="middle">报</text>
+  <text x="245" y="675" font-family="Arial" font-size="12" fill="#2D3748" text-anchor="middle">报表</text>
+  
+  <rect x="296" y="610" width="82" height="82" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="337" cy="640" r="20" fill="#ECFDF5"/>
+  <text x="337" y="645" font-family="Arial" font-size="12" fill="#065F46" text-anchor="middle">客</text>
+  <text x="337" y="675" font-family="Arial" font-size="12" fill="#2D3748" text-anchor="middle">客户</text>
+  
+  <!-- 底部导航栏 -->
+  <rect x="0" y="780" width="390" height="64" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  
+  <!-- 主页 -->
+  <circle cx="65" cy="812" r="24" fill="#ECFDF5"/>
+  <text x="65" y="816" font-family="Arial" font-size="10" fill="#065F46" text-anchor="middle">主页</text>
+  
+  <!-- 订单 -->
+  <circle cx="142" cy="812" r="24" fill="#F5F7FA"/>
+  <text x="142" y="816" font-family="Arial" font-size="10" fill="#718096" text-anchor="middle">订单</text>
+  
+  <!-- 库存 -->
+  <circle cx="219" cy="812" r="24" fill="#F5F7FA"/>
+  <text x="219" y="816" font-family="Arial" font-size="10" fill="#718096" text-anchor="middle">库存</text>
+  
+  <!-- 报表 -->
+  <circle cx="296" cy="812" r="24" fill="#F5F7FA"/>
+  <text x="296" y="816" font-family="Arial" font-size="10" fill="#718096" text-anchor="middle">报表</text>
+  
+  <!-- 我的 -->
+  <circle cx="373" cy="812" r="24" fill="#F5F7FA"/>
+  <text x="373" y="816" font-family="Arial" font-size="10" fill="#718096" text-anchor="middle">我的</text>
+</svg>

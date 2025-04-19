@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="100" fill="url(#paint0_linear_1_2)"/>
+  <path d="M256 80L280 120L256 160L232 120L256 80Z" fill="white" stroke="#1062B3" stroke-width="6"/>
+  <path d="M256 352L280 392L256 432L232 392L256 352Z" fill="white" stroke="#1062B3" stroke-width="6"/>
+  <path d="M137.255 176L177.255 176L217.255 200L177.255 224L137.255 224L137.255 176Z" fill="white" stroke="#1062B3" stroke-width="6"/>
+  <path d="M374.745 176L414.745 176L414.745 224L374.745 224L334.745 200L374.745 176Z" fill="white" stroke="#1062B3" stroke-width="6"/>
+  <path d="M177.255 288L217.255 312L177.255 336L137.255 336L137.255 288L177.255 288Z" fill="white" stroke="#1062B3" stroke-width="6"/>
+  <path d="M334.745 312L374.745 336L414.745 336L414.745 288L374.745 288L334.745 312Z" fill="white" stroke="#1062B3" stroke-width="6"/>
+  <path d="M256 160L334.745 200L334.745 312L256 352L177.255 312L177.255 200L256 160Z" fill="white" stroke="#1062B3" stroke-width="6"/>
+  <path d="M256 216L280 256L256 296L232 256L256 216Z" fill="white" stroke="#1062B3" stroke-width="6"/>
+  <defs>
+    <linearGradient id="paint0_linear_1_2" x1="256" y1="0" x2="256" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#81C8F7"/>
+      <stop offset="1" stop-color="#0A337F"/>
+    </linearGradient>
+  </defs>
+</svg> 

@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>咨询专属方案 - onlysnow快销智链管理系统</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            padding: 20px 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0E7490;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li {
+            margin-left: 30px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #0E7490;
+        }
+        .main-content {
+            padding: 60px 0;
+            min-height: calc(100vh - 200px);
+        }
+        .page-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .page-title h1 {
+            font-size: 36px;
+            color: #0E7490;
+            margin-bottom: 10px;
+        }
+        .page-title p {
+            font-size: 18px;
+            color: #64748b;
+        }
+        .consult-container {
+            display: flex;
+            max-width: 1000px;
+            margin: 0 auto;
+            gap: 40px;
+        }
+        .form-container {
+            flex: 1;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+        .info-container {
+            width: 320px;
+            background-color: #f1f5f9;
+            padding: 40px;
+            border-radius: 10px;
+            align-self: flex-start;
+        }
+        .form-group {
+            margin-bottom: 25px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            border-color: #0E7490;
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(14, 116, 144, 0.1);
+        }
+        .form-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+        .checkbox-group {
+            margin-bottom: 20px;
+        }
+        .checkbox-group legend {
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .checkbox-item input[type="checkbox"] {
+            width: auto;
+            margin-right: 10px;
+        }
+        .submit-btn {
+            background-color: #2563EB;
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: block;
+            width: 100%;
+        }
+        .submit-btn:hover {
+            background-color: #1E40AF;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+        }
+        .form-footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #64748b;
+        }
+        .success-message {
+            display: none;
+            background-color: #ECFDF5;
+            border: 1px solid #6EE7B7;
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            color: #047857;
+            text-align: center;
+        }
+        .info-title {
+            font-size: 20px;
+            color: #0E7490;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        .info-item {
+            margin-bottom: 20px;
+        }
+        .info-item h3 {
+            font-size: 16px;
+            margin-bottom: 5px;
+            color: #0F172A;
+        }
+        .info-item p {
+            font-size: 14px;
+            color: #64748b;
+        }
+        .contact-methods {
+            margin-top: 30px;
+        }
+        .contact-methods p {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .contact-methods strong {
+            color: #0F172A;
+        }
+        
+        @media (max-width: 992px) {
+            .consult-container {
+                flex-direction: column;
+            }
+            .info-container {
+                width: 100%;
+                order: -1;
+                margin-bottom: 30px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                align-items: center;
+            }
+            .logo {
+                margin-bottom: 15px;
+            }
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            nav ul li {
+                margin: 0 10px 10px;
+            }
+            .page-title h1 {
+                font-size: 28px;
+            }
+            .page-title p {
+                font-size: 16px;
+                padding: 0 15px;
+            }
+            .form-container, .info-container {
+                padding: 25px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+            .form-container, .info-container {
+                padding: 20px 15px;
+            }
+            .form-group label {
+                font-size: 14px;
+            }
+            .form-group input,
+            .form-group select,
+            .form-group textarea {
+                padding: 10px;
+                font-size: 14px;
+            }
+            .submit-btn {
+                padding: 12px;
+                font-size: 16px;
+            }
+            .info-title {
+                font-size: 18px;
+            }
+            .main-content {
+                padding: 40px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">onlysnow快销智链</div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="products.html">产品</a></li>
+                        <li><a href="solutions.html">解决方案</a></li>
+                        <li><a href="cases.html">客户案例</a></li>
+                        <li><a href="about.html">关于我们</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="page-title">
+                <h1>咨询专属解决方案</h1>
+                <p>填写您的业务需求，我们将为您定制专属的数字化转型方案</p>
+            </div>
+            
+            <div class="consult-container">
+                <div class="form-container">
+                    <div class="success-message" id="success-message">
+                        <h3>提交成功！</h3>
+                        <p>感谢您的信任，我们的解决方案专家将在1个工作日内与您联系。</p>
+                    </div>
+                    
+                    <form id="consult-form" action="https://formspree.io/f/mzbgwdoy" method="POST">
+                        <div class="form-group">
+                            <label for="company">公司名称</label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="name">联系人姓名</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="position">职位</label>
+                            <input type="text" id="position" name="position">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">联系电话</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">电子邮箱</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="industry">所属行业</label>
+                            <select id="industry" name="industry" required>
+                                <option value="">请选择行业</option>
+                                <option value="food">食品饮料</option>
+                                <option value="retail">零售快消</option>
+                                <option value="pharma">医药保健</option>
+                                <option value="cosmetics">化妆品</option>
+                                <option value="household">家居用品</option>
+                                <option value="other">其他</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company-size">公司规模</label>
+                            <select id="company-size" name="company-size">
+                                <option value="">请选择公司规模</option>
+                                <option value="1-50">1-50人</option>
+                                <option value="51-200">51-200人</option>
+                                <option value="201-500">201-500人</option>
+                                <option value="501-1000">501-1000人</option>
+                                <option value="1000+">1000人以上</option>
+                            </select>
+                        </div>
+                        
+                        <div class="checkbox-group">
+                            <legend>您希望解决的业务痛点（多选）</legend>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="pain-inventory" name="pain-points" value="inventory">
+                                <label for="pain-inventory">库存管理效率低下</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="pain-sales" name="pain-points" value="sales">
+                                <label for="pain-sales">销售渠道管理混乱</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="pain-logistics" name="pain-points" value="logistics">
+                                <label for="pain-logistics">物流配送成本高</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="pain-data" name="pain-points" value="data">
+                                <label for="pain-data">缺乏数据分析能力</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="pain-customer" name="pain-points" value="customer">
+                                <label for="pain-customer">客户关系管理困难</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="pain-other" name="pain-points" value="other">
+                                <label for="pain-other">其他</label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">具体需求描述</label>
+                            <textarea id="message" name="message" placeholder="请详细描述您的业务需求和期望"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">提交需求</button>
+                        
+                        <div class="form-footer">
+                            <p>我们将严格保护您的隐私，您的信息不会被用于其他商业用途</p>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="info-container">
+                    <h2 class="info-title">我们的定制化服务</h2>
+                    
+                    <div class="info-item">
+                        <h3>需求分析</h3>
+                        <p>深入了解您的业务流程、痛点和目标，为您制定合适的数字化转型路径。</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <h3>方案定制</h3>
+                        <p>根据您的业务特点和需求，量身定制适合您企业的数字化解决方案。</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <h3>实施规划</h3>
+                        <p>提供详细的实施计划，确保系统平稳上线，最小化对业务的影响。</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <h3>培训支持</h3>
+                        <p>为您的团队提供专业培训，确保系统功能得到充分利用。</p>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <p>您也可以通过以下方式联系我们：</p>
+                        <p><strong>电话：</strong>15974148955</p>
+                        <p><strong>邮箱：</strong>1257381502@qq.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('consult-form');
+            const successMessage = document.getElementById('success-message');
+            
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // 这里可以添加表单验证逻辑
+                
+                // 模拟表单提交
+                setTimeout(function() {
+                    form.style.display = 'none';
+                    successMessage.style.display = 'block';
+                    
+                    // 记录转化事件
+                    console.log('咨询方案表单已提交');
+                    
+                    // 在真实环境中，可以添加表单数据提交到服务器的代码
+                }, 1000);
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('consult-form');
+            const successMessage = document.getElementById('success-message');
+            
+            form.addEventListener('submit', function(e) {
+                // 不阻止表单提交，让Formspree处理
+                
+                // 记录表单正在提交
+                console.log('咨询方案表单正在提交...');
+                
+                // 使用fetch API提交表单到Formspree
+                fetch(form.action, {
+                    method: form.method,
+                    body: new FormData(form),
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                })
+                .then(response => {
+                    if (response.ok) {
+                        // 表单提交成功
+                        form.style.display = 'none';
+                        successMessage.style.display = 'block';
+                        
+                        // 记录转化事件
+                        console.log('咨询方案表单已成功提交');
+                    } else {
+                        // 表单提交失败
+                        throw new Error('表单提交失败');
+                    }
+                })
+                .catch(error => {
+                    console.error('表单提交出错:', error);
+                    alert('提交出错，请稍后重试或直接联系我们');
+                });
+                
+                // 阻止常规表单提交
+                e.preventDefault();
+            });
+        });
+    </script>
+</body>
+</html> 

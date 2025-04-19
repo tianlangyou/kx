@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="390" height="844" fill="#F8FAFC"/>
+  
+  <!-- 状态栏 -->
+  <rect width="390" height="44" fill="#0F766E"/>
+  <text x="195" y="27" font-family="Arial" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">智能助手主页</text>
+  
+  <!-- 问候区域 -->
+  <rect x="0" y="44" width="390" height="100" fill="#0F766E"/>
+  <text x="20" y="74" font-family="Arial" font-size="20" fill="#FFFFFF" font-weight="bold">早上好，刘经理</text>
+  <text x="20" y="100" font-family="Arial" font-size="14" fill="#FFFFFF">今天是星期四，您有3个待办事项</text>
+  <circle cx="350" cy="74" r="20" fill="#FFFFFF" opacity="0.2"/>
+  <text x="350" y="80" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle">👤</text>
+  
+  <!-- 业务数据概览卡片 -->
+  <rect x="20" y="124" width="350" height="110" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="35" y="149" font-family="Arial" font-size="16" fill="#0F172A" font-weight="bold">业务数据概览</text>
+  
+  <!-- 本月销售额 -->
+  <rect x="35" y="159" width="100" height="60" fill="#FFFFFF"/>
+  <text x="35" y="179" font-family="Arial" font-size="12" fill="#64748B">本月销售额</text>
+  <text x="35" y="199" font-family="Arial" font-size="16" fill="#0F172A" font-weight="bold">¥1,456,320</text>
+  <text x="35" y="214" font-family="Arial" font-size="12" fill="#10B981">↑12.4%</text>
+  
+  <!-- 本月订单数 -->
+  <rect x="145" y="159" width="100" height="60" fill="#FFFFFF"/>
+  <text x="145" y="179" font-family="Arial" font-size="12" fill="#64748B">本月订单数</text>
+  <text x="145" y="199" font-family="Arial" font-size="16" fill="#0F172A" font-weight="bold">320</text>
+  <text x="145" y="214" font-family="Arial" font-size="12" fill="#10B981">↑8.6%</text>
+  
+  <!-- 新增客户 -->
+  <rect x="255" y="159" width="100" height="60" fill="#FFFFFF"/>
+  <text x="255" y="179" font-family="Arial" font-size="12" fill="#64748B">新增客户</text>
+  <text x="255" y="199" font-family="Arial" font-size="16" fill="#0F172A" font-weight="bold">18</text>
+  <text x="255" y="214" font-family="Arial" font-size="12" fill="#10B981">↑5.2%</text>
+  
+  <!-- AI辅助功能卡片 -->
+  <rect x="20" y="244" width="350" height="180" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="35" y="269" font-family="Arial" font-size="16" fill="#0F172A" font-weight="bold">AI辅助功能</text>
+  
+  <!-- AI对话按钮 -->
+  <rect x="35" y="284" width="155" height="120" rx="8" fill="#F0FDFA" stroke="#14B8A6" stroke-width="1"/>
+  <circle cx="112.5" cy="324" r="25" fill="#0F766E" opacity="0.3"/>
+  <text x="112.5" y="331" font-family="Arial" font-size="24" fill="#0F766E" text-anchor="middle">💬</text>
+  <text x="112.5" y="374" font-family="Arial" font-size="14" fill="#0F172A" text-anchor="middle" font-weight="bold">AI智能对话</text>
+  <text x="112.5" y="391" font-family="Arial" font-size="12" fill="#64748B" text-anchor="middle">数据分析与助言</text>
+  
+  <!-- 市场预测按钮 -->
+  <rect x="200" y="284" width="155" height="120" rx="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1"/>
+  <circle cx="277.5" cy="324" r="25" fill="#2563EB" opacity="0.3"/>
+  <text x="277.5" y="331" font-family="Arial" font-size="24" fill="#2563EB" text-anchor="middle">📊</text>
+  <text x="277.5" y="374" font-family="Arial" font-size="14" fill="#0F172A" text-anchor="middle" font-weight="bold">市场预测</text>
+  <text x="277.5" y="391" font-family="Arial" font-size="12" fill="#64748B" text-anchor="middle">趋势分析与预测</text>
+  
+  <!-- 今日任务卡片 -->
+  <rect x="20" y="434" width="350" height="160" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="35" y="459" font-family="Arial" font-size="16" fill="#0F172A" font-weight="bold">今日任务</text>
+  
+  <!-- 任务1 -->
+  <rect x="35" y="474" width="320" height="30" fill="#FFFFFF"/>
+  <rect x="35" y="474" width="20" height="20" rx="4" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+  <text x="65" y="489" font-family="Arial" font-size="14" fill="#0F172A">审核华东区销售额报告</text>
+  <text x="320" y="489" font-family="Arial" font-size="12" fill="#64748B" text-anchor="end">10:00</text>
+  
+  <!-- 任务2 -->
+  <rect x="35" y="504" width="320" height="30" fill="#FFFFFF"/>
+  <rect x="35" y="504" width="20" height="20" rx="4" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+  <text x="65" y="519" font-family="Arial" font-size="14" fill="#0F172A">与南京大客户视频会议</text>
+  <text x="320" y="519" font-family="Arial" font-size="12" fill="#64748B" text-anchor="end">14:30</text>
+  
+  <!-- 任务3 -->
+  <rect x="35" y="534" width="320" height="30" fill="#FFFFFF"/>
+  <rect x="35" y="534" width="20" height="20" rx="4" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+  <text x="65" y="549" font-family="Arial" font-size="14" fill="#0F172A">确认新产品上线计划</text>
+  <text x="320" y="549" font-family="Arial" font-size="12" fill="#64748B" text-anchor="end">16:00</text>
+  
+  <!-- 添加任务按钮 -->
+  <rect x="35" y="564" width="320" height="20" fill="#FFFFFF"/>
+  <text x="65" y="579" font-family="Arial" font-size="14" fill="#0F766E">+ 添加新任务</text>
+  
+  <!-- 热门产品卡片 -->
+  <rect x="20" y="604" width="350" height="160" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="35" y="629" font-family="Arial" font-size="16" fill="#0F172A" font-weight="bold">热门产品</text>
+  
+  <!-- 产品1 -->
+  <rect x="35" y="644" width="320" height="40" fill="#FFFFFF"/>
+  <rect x="35" y="644" width="36" height="36" rx="4" fill="#F1F5F9"/>
+  <text x="53" y="667" font-family="Arial" font-size="12" fill="#64748B" text-anchor="middle">图</text>
+  <text x="80" y="659" font-family="Arial" font-size="14" fill="#0F172A">高级有机酱油 1L装</text>
+  <text x="80" y="679" font-family="Arial" font-size="12" fill="#64748B">销量：2,843件 | 库存：5,620件</text>
+  <text x="320" y="662" font-family="Arial" font-size="14" fill="#0F766E" font-weight="bold" text-anchor="end">¥32.50</text>
+  
+  <!-- 产品2 -->
+  <rect x="35" y="684" width="320" height="40" fill="#FFFFFF"/>
+  <rect x="35" y="684" width="36" height="36" rx="4" fill="#F1F5F9"/>
+  <text x="53" y="707" font-family="Arial" font-size="12" fill="#64748B" text-anchor="middle">图</text>
+  <text x="80" y="699" font-family="Arial" font-size="14" fill="#0F172A">特级小麦粉 2.5kg装</text>
+  <text x="80" y="719" font-family="Arial" font-size="12" fill="#64748B">销量：2,156件 | 库存：4,280件</text>
+  <text x="320" y="702" font-family="Arial" font-size="14" fill="#0F766E" font-weight="bold" text-anchor="end">¥26.80</text>
+  
+  <!-- 查看更多按钮 -->
+  <rect x="35" y="724" width="320" height="30" fill="#FFFFFF"/>
+  <text x="175" y="744" font-family="Arial" font-size="14" fill="#0F766E" text-anchor="middle">查看更多产品 →</text>
+  
+  <!-- 底部导航栏 -->
+  <rect x="0" y="774" width="390" height="70" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  
+  <!-- 首页图标 (激活状态) -->
+  <rect x="15" y="784" width="70" height="50" fill="#FFFFFF"/>
+  <path d="M50 794 L35 804 L35 824 L65 824 L65 804 Z" stroke="#0F766E" stroke-width="2" fill="none"/>
+  <text x="50" y="844" font-family="Arial" font-size="12" fill="#0F766E" text-anchor="middle" font-weight="bold">首页</text>
+  
+  <!-- 订单图标 -->
+  <rect x="95" y="784" width="70" height="50" fill="#FFFFFF"/>
+  <rect x="110" y="794" width="40" height="30" stroke="#94A3B8" stroke-width="2" fill="none" rx="2"/>
+  <line x1="110" y1="804" x2="150" y2="804" stroke="#94A3B8" stroke-width="2"/>
+  <text x="130" y="844" font-family="Arial" font-size="12" fill="#94A3B8" text-anchor="middle">订单</text>
+  
+  <!-- 产品图标 -->
+  <rect x="175" y="784" width="70" height="50" fill="#FFFFFF"/>
+  <rect x="190" y="794" width="20" height="30" stroke="#94A3B8" stroke-width="2" fill="none"/>
+  <rect x="215" y="794" width="20" height="30" stroke="#94A3B8" stroke-width="2" fill="none"/>
+  <text x="210" y="844" font-family="Arial" font-size="12" fill="#94A3B8" text-anchor="middle">产品</text>
+  
+  <!-- 客户图标 -->
+  <rect x="255" y="784" width="70" height="50" fill="#FFFFFF"/>
+  <circle cx="290" cy="804" r="15" stroke="#94A3B8" stroke-width="2" fill="none"/>
+  <circle cx="290" cy="798" r="5" stroke="#94A3B8" stroke-width="2" fill="none"/>
+  <path d="M275 819 C275 809 305 809 305 819" stroke="#94A3B8" stroke-width="2" fill="none"/>
+  <text x="290" y="844" font-family="Arial" font-size="12" fill="#94A3B8" text-anchor="middle">客户</text>
+  
+  <!-- 我的图标 -->
+  <rect x="325" y="784" width="50" height="50" fill="#FFFFFF"/>
+  <circle cx="350" cy="799" r="10" stroke="#94A3B8" stroke-width="2" fill="none"/>
+  <path d="M335 824 C335 814 365 814 365 824" stroke="#94A3B8" stroke-width="2" fill="none"/>
+  <text x="350" y="844" font-family="Arial" font-size="12" fill="#94A3B8" text-anchor="middle">我的</text>
+</svg>

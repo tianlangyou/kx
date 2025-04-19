@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="390" height="844" fill="#F8FAFC"/>
+  
+  <!-- 状态栏 -->
+  <rect width="390" height="44" fill="#1E40AF"/>
+  <text x="195" y="27" font-family="Arial" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">管理员控制台</text>
+  
+  <!-- 用户信息栏 -->
+  <rect x="0" y="44" width="390" height="80" fill="#FFFFFF"/>
+  <circle cx="45" cy="84" r="24" fill="#1E40AF"/>
+  <text x="45" y="89" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">管</text>
+  <text x="85" y="74" font-family="Arial" font-size="16" fill="#1E3A8A" font-weight="bold">系统管理员</text>
+  <text x="85" y="94" font-family="Arial" font-size="12" fill="#64748B">超级管理员 - 张总</text>
+  <rect x="310" y="74" width="60" height="24" rx="12" fill="#EFF6FF"/>
+  <text x="340" y="90" font-family="Arial" font-size="12" fill="#1E40AF" text-anchor="middle">设置</text>
+  
+  <!-- 系统概览区域 -->
+  <rect x="20" y="134" width="350" height="120" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="40" y="154" font-family="Arial" font-size="16" fill="#1E3A8A" font-weight="bold">系统健康度</text>
+  
+  <!-- 系统指标卡片 -->
+  <rect x="40" y="164" width="103" height="70" rx="8" fill="#EFF6FF"/>
+  <text x="50" y="184" font-family="Arial" font-size="12" fill="#1E40AF">在线用户</text>
+  <text x="50" y="214" font-family="Arial" font-size="20" fill="#1E40AF" font-weight="bold">1,256</text>
+  
+  <rect x="153" y="164" width="103" height="70" rx="8" fill="#EFF6FF"/>
+  <text x="163" y="184" font-family="Arial" font-size="12" fill="#1E40AF">服务器负载</text>
+  <text x="163" y="214" font-family="Arial" font-size="20" fill="#1E40AF" font-weight="bold">42%</text>
+  
+  <rect x="266" y="164" width="103" height="70" rx="8" fill="#EFF6FF"/>
+  <text x="276" y="184" font-family="Arial" font-size="12" fill="#1E40AF">响应时间</text>
+  <text x="276" y="214" font-family="Arial" font-size="20" fill="#1E40AF" font-weight="bold">0.2s</text>
+  
+  <!-- 系统告警区域 -->
+  <rect x="20" y="264" width="350" height="126" rx="16" fill="#FEF2F2" stroke="#FEE2E2" stroke-width="1"/>
+  <text x="40" y="284" font-family="Arial" font-size="16" fill="#DC2626" font-weight="bold">系统告警</text>
+  
+  <!-- 告警信息1 -->
+  <rect x="40" y="294" width="310" height="40" rx="8" fill="#FFFFFF"/>
+  <circle cx="60" cy="314" r="15" fill="#DC2626"/>
+  <text x="60" y="318" font-family="Arial" font-size="10" fill="#FFFFFF" text-anchor="middle">高</text>
+  <text x="85" y="318" font-family="Arial" font-size="14" fill="#2D3748">数据库备份失败</text>
+  <text x="320" y="318" font-family="Arial" font-size="12" fill="#DC2626" text-anchor="end">10分钟前</text>
+  
+  <!-- 告警信息2 -->
+  <rect x="40" y="344" width="310" height="40" rx="8" fill="#FFFFFF"/>
+  <circle cx="60" cy="364" r="15" fill="#F97316"/>
+  <text x="60" y="368" font-family="Arial" font-size="10" fill="#FFFFFF" text-anchor="middle">中</text>
+  <text x="85" y="368" font-family="Arial" font-size="14" fill="#2D3748">API响应时间波动</text>
+  <text x="320" y="368" font-family="Arial" font-size="12" fill="#F97316" text-anchor="end">25分钟前</text>
+  
+  <!-- 用户活动区域 -->
+  <rect x="20" y="400" width="350" height="170" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="40" y="420" font-family="Arial" font-size="16" fill="#1E3A8A" font-weight="bold">最近用户活动</text>
+  
+  <!-- 用户活动1 -->
+  <rect x="40" y="430" width="310" height="40" rx="8" fill="#FFFFFF" stroke="#EFF6FF" stroke-width="1"/>
+  <circle cx="60" cy="450" r="15" fill="#DBEAFE"/>
+  <text x="60" y="454" font-family="Arial" font-size="10" fill="#1E40AF" text-anchor="middle">登</text>
+  <text x="85" y="450" font-family="Arial" font-size="14" fill="#2D3748">惠民连锁超市 - 王店长</text>
+  <text x="320" y="450" font-family="Arial" font-size="12" fill="#64748B" text-anchor="end">3分钟前</text>
+  
+  <!-- 用户活动2 -->
+  <rect x="40" y="480" width="310" height="40" rx="8" fill="#FFFFFF" stroke="#EFF6FF" stroke-width="1"/>
+  <circle cx="60" cy="500" r="15" fill="#DBEAFE"/>
+  <text x="60" y="504" font-family="Arial" font-size="10" fill="#1E40AF" text-anchor="middle">订</text>
+  <text x="85" y="500" font-family="Arial" font-size="14" fill="#2D3748">金鼎商贸有限公司 - 李经理</text>
+  <text x="320" y="500" font-family="Arial" font-size="12" fill="#64748B" text-anchor="end">12分钟前</text>
+  
+  <!-- 用户活动3 -->
+  <rect x="40" y="530" width="310" height="40" rx="8" fill="#FFFFFF" stroke="#EFF6FF" stroke-width="1"/>
+  <circle cx="60" cy="550" r="15" fill="#DBEAFE"/>
+  <text x="60" y="554" font-family="Arial" font-size="10" fill="#1E40AF" text-anchor="middle">批</text>
+  <text x="85" y="550" font-family="Arial" font-size="14" fill="#2D3748">订单部 - 赵主管</text>
+  <text x="320" y="550" font-family="Arial" font-size="12" fill="#64748B" text-anchor="end">25分钟前</text>
+  
+  <!-- 快捷功能区 -->
+  <text x="40" y="590" font-family="Arial" font-size="16" fill="#1E3A8A" font-weight="bold">系统管理</text>
+  
+  <!-- 功能按钮第一行 -->
+  <rect x="20" y="600" width="110" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="75" cy="635" r="25" fill="#EFF6FF"/>
+  <text x="75" y="640" font-family="Arial" font-size="14" fill="#1E40AF" text-anchor="middle">用</text>
+  <text x="75" y="675" font-family="Arial" font-size="14" fill="#1E3A8A" text-anchor="middle">用户管理</text>
+  
+  <rect x="140" y="600" width="110" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="195" cy="635" r="25" fill="#EFF6FF"/>
+  <text x="195" y="640" font-family="Arial" font-size="14" fill="#1E40AF" text-anchor="middle">角</text>
+  <text x="195" y="675" font-family="Arial" font-size="14" fill="#1E3A8A" text-anchor="middle">角色权限</text>
+  
+  <rect x="260" y="600" width="110" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="315" cy="635" r="25" fill="#EFF6FF"/>
+  <text x="315" y="640" font-family="Arial" font-size="14" fill="#1E40AF" text-anchor="middle">日</text>
+  <text x="315" y="675" font-family="Arial" font-size="14" fill="#1E3A8A" text-anchor="middle">系统日志</text>
+  
+  <!-- 功能按钮第二行 -->
+  <rect x="20" y="700" width="110" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="75" cy="735" r="25" fill="#EFF6FF"/>
+  <text x="75" y="740" font-family="Arial" font-size="14" fill="#1E40AF" text-anchor="middle">数</text>
+  <text x="75" y="775" font-family="Arial" font-size="14" fill="#1E3A8A" text-anchor="middle">数据备份</text>
+  
+  <rect x="140" y="700" width="110" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="195" cy="735" r="25" fill="#EFF6FF"/>
+  <text x="195" y="740" font-family="Arial" font-size="14" fill="#1E40AF" text-anchor="middle">配</text>
+  <text x="195" y="775" font-family="Arial" font-size="14" fill="#1E3A8A" text-anchor="middle">系统配置</text>
+  
+  <rect x="260" y="700" width="110" height="90" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="315" cy="735" r="25" fill="#EFF6FF"/>
+  <text x="315" y="740" font-family="Arial" font-size="14" fill="#1E40AF" text-anchor="middle">监</text>
+  <text x="315" y="775" font-family="Arial" font-size="14" fill="#1E3A8A" text-anchor="middle">性能监控</text>
+</svg>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="390" height="844" fill="#F7F9FC"/>
+  
+  <!-- 状态栏 -->
+  <rect width="390" height="44" fill="#1E3A8A"/>
+  <text x="195" y="27" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">智能物流助手</text>
+  
+  <!-- 用户信息栏 -->
+  <rect x="0" y="44" width="390" height="60" fill="#FFFFFF"/>
+  <text x="20" y="80" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="18" fill="#1E3A8A" font-weight="bold">配送AI智能助手</text>
+  <circle cx="350" cy="74" r="20" fill="#F1F5F9"/>
+  <text x="350" y="79" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="16" fill="#475569" text-anchor="middle" font-weight="bold">+</text>
+  
+  <!-- 对话区域背景 -->
+  <rect x="0" y="104" width="390" height="620" fill="#F8FAFC"/>
+  
+  <!-- 系统消息 -->
+  <rect x="95" y="124" width="200" height="36" rx="18" fill="#E2E8F0"/>
+  <text x="195" y="147" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#475569" text-anchor="middle">今天 10:05</text>
+  
+  <!-- AI消息1 -->
+  <rect x="20" y="170" width="280" height="110" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="40" cy="190" r="15" fill="#1E3A8A"/>
+  <text x="40" y="195" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">AI</text>
+  
+  <text x="65" y="185" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#0F172A" font-weight="bold">整车调度智能助手已启动</text>
+  <text x="65" y="205" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">早上好，张经理！今天有12个待配送订单，</text>
+  <text x="65" y="225" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">我已经分析了当前的车辆和订单情况，有3个</text>
+  <text x="65" y="245" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">高优先级订单建议优先处理。</text>
+  <text x="65" y="265" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">需要我为您做什么？</text>
+  
+  <!-- 用户消息1 -->
+  <rect x="90" y="290" width="280" height="60" rx="16" fill="#1E3A8A"/>
+  <text x="115" y="320" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#FFFFFF">帮我分析一下目前车辆资源使用情况，以及</text>
+  <text x="115" y="340" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#FFFFFF">是否需要额外调用短租车</text>
+  
+  <!-- AI消息2 -->
+  <rect x="20" y="360" width="280" height="170" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="40" cy="380" r="15" fill="#1E3A8A"/>
+  <text x="40" y="385" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">AI</text>
+  
+  <text x="65" y="380" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">根据当前分析：</text>
+  <text x="65" y="400" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">· 自备车：10辆中8辆可用，利用率80%</text>
+  <text x="65" y="420" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">· 长租车：8辆中6辆可用，利用率75%</text>
+  <text x="65" y="440" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">· 短租车：5辆中3辆可用，利用率60%</text>
+  <text x="65" y="465" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">今日待处理订单需要约14辆车次，当前资源</text>
+  <text x="65" y="485" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">可保障，但如采用我提供的多点配送方案，</text>
+  <text x="65" y="505" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B">可减少2-3车次，不需额外短租车。</text>
+  
+  <!-- 多点配送方案卡片 -->
+  <rect x="65" y="515" width="220" height="50" rx="8" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="85" y="540" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#1E40AF">查看多点配送优化方案</text>
+  <text x="260" y="540" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#1E40AF">→</text>
+  
+  <!-- 用户消息2 -->
+  <rect x="90" y="540" width="280" height="40" rx="16" fill="#1E3A8A"/>
+  <text x="115" y="565" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#FFFFFF">请帮我生成今日车辆调度计划</text>
+  
+  <!-- AI正在输入提示 -->
+  <rect x="20" y="590" width="150" height="50" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="40" cy="615" r="15" fill="#1E3A8A"/>
+  <text x="40" y="620" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" font-weight="bold">AI</text>
+  
+  <circle cx="75" cy="615" r="4" fill="#64748B">
+    <animate attributeName="opacity" values="1;0;1" dur="1.5s" repeatCount="indefinite" begin="0s" />
+  </circle>
+  <circle cx="90" cy="615" r="4" fill="#64748B">
+    <animate attributeName="opacity" values="1;0;1" dur="1.5s" repeatCount="indefinite" begin="0.2s" />
+  </circle>
+  <circle cx="105" cy="615" r="4" fill="#64748B">
+    <animate attributeName="opacity" values="1;0;1" dur="1.5s" repeatCount="indefinite" begin="0.4s" />
+  </circle>
+  
+  <!-- 快捷输入区域 -->
+  <rect x="20" y="654" width="105" height="40" rx="20" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="72" y="679" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">调度车辆</text>
+  
+  <rect x="135" y="654" width="105" height="40" rx="20" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="187" y="679" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">优化路线</text>
+  
+  <rect x="250" y="654" width="120" height="40" rx="20" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="310" y="679" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">寻找短租车</text>
+  
+  <!-- 输入框区域 -->
+  <rect x="0" y="724" width="390" height="60" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="20" y="734" width="290" height="40" rx="20" fill="#F1F5F9"/>
+  <text x="45" y="759" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="12" fill="#94A3B8">输入您的问题...</text>
+  
+  <circle cx="350" cy="754" r="24" fill="#1E3A8A"/>
+  <path d="M340 754 L350 764 L360 754" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  
+  <!-- 底部导航栏 -->
+  <rect x="0" y="784" width="390" height="60" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  
+  <!-- 首页图标 -->
+  <circle cx="50" cy="809" r="22" fill="#F1F5F9"/>
+  <path d="M50 799 L38 809 L38 824 L62 824 L62 809 Z" stroke="#64748B" stroke-width="2" fill="none"/>
+  <text x="50" y="834" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#64748B" text-anchor="middle">首页</text>
+  
+  <!-- 订单图标 -->
+  <circle cx="130" cy="809" r="22" fill="#F1F5F9"/>
+  <rect x="118" y="799" width="24" height="20" stroke="#64748B" stroke-width="2" fill="none" rx="2"/>
+  <line x1="118" y1="805" x2="142" y2="805" stroke="#64748B" stroke-width="2"/>
+  <text x="130" y="834" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#64748B" text-anchor="middle">订单</text>
+  
+  <!-- 车辆图标 -->
+  <circle cx="210" cy="809" r="22" fill="#F1F5F9"/>
+  <path d="M200 802 L220 802 L223 809 L197 809 Z" stroke="#64748B" stroke-width="2" fill="none"/>
+  <circle cx="202" cy="816" r="4" stroke="#64748B" stroke-width="2" fill="none"/>
+  <circle cx="218" cy="816" r="4" stroke="#64748B" stroke-width="2" fill="none"/>
+  <text x="210" y="834" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#64748B" text-anchor="middle">车辆</text>
+  
+  <!-- AI助手图标（激活状态） -->
+  <circle cx="290" cy="809" r="24" fill="#1E3A8A"/>
+  <circle cx="290" cy="804" r="8" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <text x="290" y="808" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle">AI</text>
+  <text x="290" y="834" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#1E3A8A" text-anchor="middle" font-weight="bold">助手</text>
+  
+  <!-- 我的图标 -->
+  <circle cx="350" cy="809" r="22" fill="#F1F5F9"/>
+  <circle cx="350" cy="804" r="8" stroke="#64748B" stroke-width="2" fill="none"/>
+  <path d="M338 824 C338 816 362 816 362 824" stroke="#64748B" stroke-width="2" fill="none"/>
+  <text x="350" y="834" font-family="PingFang SC, Noto Sans SC, sans-serif" font-size="10" fill="#64748B" text-anchor="middle">我的</text>
+</svg>

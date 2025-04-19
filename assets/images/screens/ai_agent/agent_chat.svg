@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="390" height="844" fill="#F8FAFC"/>
+  
+  <!-- 状态栏 -->
+  <rect width="390" height="44" fill="#0E7490" filter="url(#shadow)"/>
+  <text x="195" y="28" font-family="PingFang SC, Arial, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="600">智能对话</text>
+  
+  <!-- 返回按钮 -->
+  <path d="M25 27 L15 22 L25 17" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- 聊天区域背景 -->
+  <rect x="0" y="44" width="390" height="714" fill="#F1F5F9"/>
+  
+  <!-- 聊天消息 - 系统问候 -->
+  <rect x="16" y="60" width="358" height="80" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <circle cx="40" cy="84" r="18" fill="#0E7490"/>
+  <text x="40" y="89" font-family="PingFang SC, Arial, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="600">智</text>
+  <text x="70" y="76" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#0F172A" font-weight="600">销售智能助手</text>
+  <text x="70" y="100" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#64748B">您好，王经理！有什么可以帮您的吗？</text>
+  <text x="350" y="120" font-family="PingFang SC, Arial, sans-serif" font-size="12" fill="#94A3B8" text-anchor="end">09:05</text>
+  
+  <!-- 聊天消息 - 用户询问 -->
+  <rect x="100" y="150" width="274" height="60" rx="12" fill="#0E7490" filter="url(#card-shadow)"/>
+  <text x="120" y="180" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#FFFFFF">查询南京美食城最近的订单状态</text>
+  <text x="355" y="200" font-family="PingFang SC, Arial, sans-serif" font-size="12" fill="#94A3B8" text-anchor="end">09:07</text>
+  <circle cx="60" cy="170" r="18" fill="#64748B"/>
+  <text x="60" y="175" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">王</text>
+  
+  <!-- 聊天消息 - 系统回复 -->
+  <rect x="16" y="220" width="358" height="160" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <circle cx="40" cy="244" r="18" fill="#0E7490"/>
+  <text x="40" y="249" font-family="PingFang SC, Arial, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="600">智</text>
+  <text x="70" y="236" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#0F172A" font-weight="600">销售智能助手</text>
+  <text x="70" y="260" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#64748B">南京美食城最近的订单是：</text>
+  
+  <!-- 订单卡片 -->
+  <rect x="70" y="270" width="284" height="80" rx="8" fill="#F1F5F9"/>
+  <text x="85" y="290" font-family="PingFang SC, Arial, sans-serif" font-size="13" fill="#0F172A" font-weight="600">订单 #ORD-20240430-089</text>
+  <text x="85" y="310" font-family="PingFang SC, Arial, sans-serif" font-size="13" fill="#64748B">创建日期：2024-04-30</text>
+  <text x="85" y="330" font-family="PingFang SC, Arial, sans-serif" font-size="13" fill="#64748B">金额：¥18,720.50</text>
+  <rect x="240" y="285" width="100" height="24" rx="12" fill="#FEF9C3"/>
+  <text x="290" y="301" font-family="PingFang SC, Arial, sans-serif" font-size="12" fill="#A16207" text-anchor="middle" font-weight="500">处理中</text>
+  
+  <text x="350" y="360" font-family="PingFang SC, Arial, sans-serif" font-size="12" fill="#94A3B8" text-anchor="end">09:07</text>
+  
+  <!-- 聊天消息 - 系统跟进问题 -->
+  <rect x="16" y="390" width="358" height="90" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <circle cx="40" cy="414" r="18" fill="#0E7490"/>
+  <text x="40" y="419" font-family="PingFang SC, Arial, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="600">智</text>
+  <text x="70" y="406" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#0F172A" font-weight="600">销售智能助手</text>
+  <text x="70" y="430" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#64748B">您需要为此订单执行什么操作？</text>
+  <text x="70" y="455" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#64748B">可以查看详情、修改、审批或取消</text>
+  <text x="350" y="470" font-family="PingFang SC, Arial, sans-serif" font-size="12" fill="#94A3B8" text-anchor="end">09:08</text>
+  
+  <!-- 功能按钮卡片 -->
+  <rect x="16" y="490" width="358" height="60" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <rect x="26" y="505" width="80" height="30" rx="15" fill="#0E7490" filter="url(#button-shadow)"/>
+  <text x="66" y="524" font-family="PingFang SC, Arial, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle">查看详情</text>
+  
+  <rect x="116" y="505" width="80" height="30" rx="15" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="156" y="524" font-family="PingFang SC, Arial, sans-serif" font-size="13" fill="#64748B" text-anchor="middle">审批</text>
+  
+  <rect x="206" y="505" width="80" height="30" rx="15" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="246" y="524" font-family="PingFang SC, Arial, sans-serif" font-size="13" fill="#64748B" text-anchor="middle">修改</text>
+  
+  <rect x="296" y="505" width="68" height="30" rx="15" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="330" y="524" font-family="PingFang SC, Arial, sans-serif" font-size="13" fill="#64748B" text-anchor="middle">取消</text>
+  
+  <!-- 输入框 -->
+  <rect x="16" y="690" width="300" height="50" rx="25" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <text x="55" y="722" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#94A3B8">输入您的问题...</text>
+  <!-- 话筒图标 -->
+  <circle cx="40" cy="715" r="15" fill="#F1F5F9"/>
+  <circle cx="40" cy="715" r="6" stroke="#94A3B8" stroke-width="1.5" fill="none"/>
+  <path d="M40 707 L40 715 M35 712 L45 719" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- 发送按钮 -->
+  <circle cx="341" cy="715" r="25" fill="#0E7490" filter="url(#button-shadow)"/>
+  <path d="M335 715 L347 715 M347 715 L341 709 M347 715 L341 721" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- 底部导航栏 -->
+  <rect x="0" y="774" width="390" height="70" fill="#FFFFFF" filter="url(#navbar-shadow)"/>
+  
+  <!-- 首页图标 -->
+  <g>
+    <rect x="15" y="784" width="70" height="50" fill="#FFFFFF"/>
+    <path d="M50 794 L30 809 L30 829 L70 829 L70 809 Z" stroke="#94A3B8" stroke-width="2" fill="none" stroke-linejoin="round"/>
+    <text x="50" y="852" font-family="PingFang SC, Arial, sans-serif" font-size="12" fill="#94A3B8" text-anchor="middle">首页</text>
+  </g>
+  
+  <!-- 订单图标 -->
+  <g>
+    <rect x="95" y="784" width="70" height="50" fill="#FFFFFF"/>
+    <rect x="110" y="794" width="40" height="35" stroke="#94A3B8" stroke-width="2" fill="none" rx="3" stroke-linejoin="round"/>
+    <line x1="110" y1="804" x2="150" y2="804" stroke="#94A3B8" stroke-width="2"/>
+    <line x1="115" y1="811" x2="125" y2="811" stroke="#94A3B8" stroke-width="1.5"/>
+    <line x1="115" y1="818" x2="140" y2="818" stroke="#94A3B8" stroke-width="1.5"/>
+    <text x="130" y="852" font-family="PingFang SC, Arial, sans-serif" font-size="12" fill="#94A3B8" text-anchor="middle">订单</text>
+  </g>
+  
+  <!-- 对话图标 (激活状态) -->
+  <g>
+    <rect x="175" y="784" width="70" height="50" fill="#FFFFFF"/>
+    <circle cx="210" cy="805" r="15" fill="none" stroke="#0E7490" stroke-width="2.2"/>
+    <path d="M198 798 L222 798 M198 805 L222 805 M198 812 L212 812" stroke="#0E7490" stroke-width="1.5"/>
+    <text x="210" y="852" font-family="PingFang SC, Arial, sans-serif" font-size="12" fill="#0E7490" text-anchor="middle" font-weight="600">对话</text>
+    <circle cx="210" cy="780" r="4" fill="#0E7490"/>
+  </g>
+  
+  <!-- 客户图标 -->
+  <g>
+    <rect x="255" y="784" width="70" height="50" fill="#FFFFFF"/>
+    <circle cx="290" cy="805" r="15" stroke="#94A3B8" stroke-width="2" fill="none"/>
+    <circle cx="290" cy="798" r="5" stroke="#94A3B8" stroke-width="2" fill="none"/>
+    <path d="M275 820 C275 810 305 810 305 820" stroke="#94A3B8" stroke-width="2" fill="none"/>
+    <text x="290" y="852" font-family="PingFang SC, Arial, sans-serif" font-size="12" fill="#94A3B8" text-anchor="middle">客户</text>
+  </g>
+  
+  <!-- 我的图标 -->
+  <g>
+    <rect x="325" y="784" width="50" height="50" fill="#FFFFFF"/>
+    <circle cx="350" cy="799" r="10" stroke="#94A3B8" stroke-width="2" fill="none"/>
+    <path d="M335 824 C335 814 365 814 365 824" stroke="#94A3B8" stroke-width="2" fill="none"/>
+    <text x="350" y="852" font-family="PingFang SC, Arial, sans-serif" font-size="12" fill="#94A3B8" text-anchor="middle">我的</text>
+  </g>
+  
+  <!-- 添加阴影滤镜 -->
+  <defs>
+    <filter id="shadow" x="-4" y="-4" width="398" height="52" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="1"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <filter id="card-shadow" x="-2" y="-2" width="362" height="132" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="1"/>
+      <feGaussianBlur stdDeviation="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <filter id="button-shadow" x="-2" y="-2" width="54" height="34" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="1"/>
+      <feGaussianBlur stdDeviation="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <filter id="navbar-shadow" x="0" y="772" width="390" height="74" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="-2"/>
+      <feGaussianBlur stdDeviation="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+</svg> 

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#007AFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5AC8FA;stop-opacity:1" />
+    </linearGradient>
+    <style>
+      @font-face {
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 400;
+        src: local('SF Pro Text');
+      }
+      @font-face {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        src: local('SF Pro Display');
+      }
+      .status-bar {
+        font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 12px;
+        fill: #000000;
+      }
+      .header-text {
+        font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-weight: 600;
+        fill: #000000;
+      }
+      .title {
+        font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        fill: #000000;
+      }
+      .subtitle {
+        font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 16px;
+        fill: #6e6e6e;
+      }
+      .card-title {
+        font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        fill: #000000;
+      }
+      .text {
+        font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 15px;
+        fill: #000000;
+      }
+      .label {
+        font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 13px;
+        fill: #8e8e93;
+      }
+      .value {
+        font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 19px;
+        font-weight: 600;
+        fill: #000000;
+      }
+      .nav-text {
+        font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 10px;
+        fill: #8e8e93;
+      }
+      .nav-text-active {
+        font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 10px;
+        fill: #007AFF;
+      }
+      .ios-card {
+        fill: white;
+        rx: 12;
+        ry: 12;
+        filter: drop-shadow(0px 2px 6px rgba(0,0,0,0.08));
+      }
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#F2F2F7" />
+  
+  <!-- 设计说明 -->
+  <text x="150" y="40" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif" font-size="24px" font-weight="bold" fill="#000000">iOS应用原型 - 销售工作台</text>
+  
+  <!-- 设备框架 - iPhone风格 -->
+  <rect x="300" y="80" width="280" height="480" rx="38" ry="38" fill="#1D1D1F" />
+  <rect x="307" y="87" width="266" height="466" rx="30" ry="30" fill="#F2F2F7" />
+  
+  <!-- 刘海区域 - iPhone样式 -->
+  <rect x="362" y="87" width="156" height="18" rx="9" ry="9" fill="#1D1D1F" />
+  
+  <!-- 状态栏 -->
+  <text x="325" y="116" class="status-bar">9:41</text>
+  <text x="550" y="116" text-anchor="end" class="status-bar">100%</text>
+  
+  <!-- 头部区域 - iOS风格 -->
+  <text x="325" y="145" class="title">工作台</text>
+  <circle cx="545" cy="132" r="16" fill="#EFEFEF" />
+  <text x="545" y="137" text-anchor="middle" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">王</text>
+  
+  <!-- 欢迎区域 - iOS卡片 -->
+  <rect x="317" y="162" width="246" height="68" class="ios-card" />
+  <text x="332" y="188" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif" font-size="17px" font-weight="600" fill="#000000">上午好，王经理</text>
+  <text x="332" y="213" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#8e8e93">今日有 5 个待处理任务</text>
+  
+  <!-- 数据卡片1 - iOS风格 -->
+  <rect x="317" y="240" width="116" height="110" class="ios-card" />
+  <text x="332" y="265" class="label">本月销售额</text>
+  <text x="332" y="290" class="value">¥128.65万</text>
+  <text x="332" y="310" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="13px" fill="#34C759">↑ 12.5%</text>
+  
+  <!-- 数据卡片2 - iOS风格 -->
+  <rect x="447" y="240" width="116" height="110" class="ios-card" />
+  <text x="462" y="265" class="label">订单完成率</text>
+  <text x="462" y="290" class="value">87.5%</text>
+  <text x="462" y="310" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="13px" fill="#34C759">↑ 5.2%</text>
+  
+  <!-- 销售数据图表 - iOS卡片 -->
+  <rect x="317" y="360" width="246" height="120" class="ios-card" />
+  <text x="332" y="385" class="card-title">销售趋势</text>
+  
+  <!-- 简易线图 - iOS数据可视化风格 -->
+  <path d="M332,446 L352,436 L372,441 L392,426 L412,431 L432,416 L452,406 L472,411 L492,401 L512,386 L532,396 L532,446 Z" 
+        fill="rgba(0,122,255,0.1)" />
+  
+  <polyline points="332,446 352,436 372,441 392,426 412,431 432,416 452,406 472,411 492,401 512,386 532,396" 
+            fill="none" stroke="#007AFF" stroke-width="2" />
+  
+  <circle cx="332" cy="446" r="3.5" fill="#FFFFFF" stroke="#007AFF" stroke-width="1.5" />
+  <circle cx="352" cy="436" r="3.5" fill="#FFFFFF" stroke="#007AFF" stroke-width="1.5" />
+  <circle cx="372" cy="441" r="3.5" fill="#FFFFFF" stroke="#007AFF" stroke-width="1.5" />
+  <circle cx="392" cy="426" r="3.5" fill="#FFFFFF" stroke="#007AFF" stroke-width="1.5" />
+  <circle cx="412" cy="431" r="3.5" fill="#FFFFFF" stroke="#007AFF" stroke-width="1.5" />
+  <circle cx="432" cy="416" r="3.5" fill="#FFFFFF" stroke="#007AFF" stroke-width="1.5" />
+  <circle cx="452" cy="406" r="3.5" fill="#FFFFFF" stroke="#007AFF" stroke-width="1.5" />
+  <circle cx="472" cy="411" r="3.5" fill="#FFFFFF" stroke="#007AFF" stroke-width="1.5" />
+  <circle cx="492" cy="401" r="3.5" fill="#FFFFFF" stroke="#007AFF" stroke-width="1.5" />
+  <circle cx="512" cy="386" r="3.5" fill="#FFFFFF" stroke="#007AFF" stroke-width="1.5" />
+  <circle cx="532" cy="396" r="3.5" fill="#FFFFFF" stroke="#007AFF" stroke-width="1.5" />
+  
+  <line x1="332" y1="450" x2="532" y2="450" stroke="#E0E0E0" stroke-width="1" />
+  
+  <text x="332" y="465" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="10px" fill="#8e8e93">5/1</text>
+  <text x="532" y="465" text-anchor="end" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="10px" fill="#8e8e93">5/31</text>
+  
+  <!-- 底部导航栏 - iOS标签栏 -->
+  <rect x="307" y="485" width="266" height="68" fill="#FFFFFF" rx="0" ry="0" />
+  <rect x="307" y="485" width="266" height="1" fill="#E5E5EA" />
+  
+  <text x="340" y="523" text-anchor="middle" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="24px" fill="#8e8e93">⌂</text>
+  <text x="340" y="543" text-anchor="middle" class="nav-text">首页</text>
+  
+  <text x="395" y="523" text-anchor="middle" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="24px" fill="#007AFF">◰</text>
+  <text x="395" y="543" text-anchor="middle" class="nav-text-active">工作台</text>
+  
+  <text x="450" y="523" text-anchor="middle" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="24px" fill="#8e8e93">📋</text>
+  <text x="450" y="543" text-anchor="middle" class="nav-text">订单</text>
+  
+  <text x="505" y="523" text-anchor="middle" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="24px" fill="#8e8e93">👥</text>
+  <text x="505" y="543" text-anchor="middle" class="nav-text">客户</text>
+  
+  <text x="560" y="523" text-anchor="middle" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="24px" fill="#8e8e93">⚙</text>
+  <text x="560" y="543" text-anchor="middle" class="nav-text">我的</text>
+  
+  <!-- iOS设计特性说明 -->
+  <rect x="30" y="150" width="220" height="300" fill="none" stroke="#D1D1D6" stroke-width="1" rx="12" ry="12" />
+  <text x="50" y="180" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif" font-size="17px" font-weight="600" fill="#000000">iOS设计特点</text>
+  <text x="50" y="210" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• SF Pro字体系统</text>
+  <text x="50" y="235" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• 圆角矩形设计</text>
+  <text x="50" y="260" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• 扁平化阴影效果</text>
+  <text x="50" y="285" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• 鲜明色彩系统</text>
+  <text x="50" y="310" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• 简洁导航交互</text>
+  <text x="50" y="335" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• 一致的视觉层次</text>
+  <text x="50" y="360" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• 高对比度界面</text>
+  <text x="50" y="385" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• 苹果人机界面指南</text>
+  <text x="50" y="410" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• SwiftUI/UIKit适配</text>
+  
+  <!-- 功能说明 -->
+  <rect x="600" y="150" width="170" height="300" fill="none" stroke="#D1D1D6" stroke-width="1" rx="12" ry="12" />
+  <text x="620" y="180" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif" font-size="17px" font-weight="600" fill="#000000">工作台功能</text>
+  <text x="620" y="210" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• 销售数据概览</text>
+  <text x="620" y="235" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• 实时业绩监控</text>
+  <text x="620" y="260" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• 个性化任务提醒</text>
+  <text x="620" y="285" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• 销售趋势图表</text>
+  <text x="620" y="310" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• 苹果生态集成</text>
+  <text x="620" y="335" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• Handoff支持</text>
+  <text x="620" y="360" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• Siri快捷方式</text>
+  <text x="620" y="385" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• iCloud同步</text>
+  <text x="620" y="410" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14px" fill="#000000">• iOS桌面小组件</text>
+  
+  <!-- 版权信息 -->
+  <text x="440" y="580" text-anchor="middle" font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, sans-serif" font-size="12px" fill="#8e8e93">© 2025 onlysnow 刘景园</text>
+</svg>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="390" height="844" fill="#F5F7FA"/>
+  
+  <!-- 状态栏 -->
+  <rect width="390" height="44" fill="#2D5F9E"/>
+  <text x="195" y="27" font-family="Arial" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">订单管理</text>
+  
+  <!-- 搜索栏 -->
+  <rect x="20" y="54" width="350" height="40" rx="20" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="1"/>
+  <circle cx="40" cy="74" r="10" fill="#F5F7FA"/>
+  <text x="75" y="79" font-family="Arial" font-size="14" fill="#A0AEC0">搜索订单号、客户名称...</text>
+  
+  <!-- 状态标签栏 -->
+  <rect x="0" y="104" width="390" height="50" fill="#FFFFFF"/>
+  
+  <rect x="20" y="114" width="60" height="30" rx="15" fill="#2D5F9E"/>
+  <text x="50" y="134" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">全部</text>
+  
+  <rect x="90" y="114" width="60" height="30" rx="15" fill="#F5F7FA"/>
+  <text x="120" y="134" font-family="Arial" font-size="12" fill="#718096" text-anchor="middle">待审核</text>
+  
+  <rect x="160" y="114" width="60" height="30" rx="15" fill="#F5F7FA"/>
+  <text x="190" y="134" font-family="Arial" font-size="12" fill="#718096" text-anchor="middle">待发货</text>
+  
+  <rect x="230" y="114" width="60" height="30" rx="15" fill="#F5F7FA"/>
+  <text x="260" y="134" font-family="Arial" font-size="12" fill="#718096" text-anchor="middle">已发货</text>
+  
+  <rect x="300" y="114" width="70" height="30" rx="15" fill="#F5F7FA"/>
+  <text x="335" y="134" font-family="Arial" font-size="12" fill="#718096" text-anchor="middle">已完成</text>
+  
+  <!-- 时间筛选栏 -->
+  <rect x="0" y="164" width="390" height="40" fill="#FFFFFF"/>
+  
+  <text x="40" y="189" font-family="Arial" font-size="12" fill="#2D5F9E">本周</text>
+  <text x="100" y="189" font-family="Arial" font-size="12" fill="#718096">本月</text>
+  <text x="160" y="189" font-family="Arial" font-size="12" fill="#718096">上月</text>
+  
+  <rect x="290" y="169" width="80" height="30" rx="4" fill="#F5F7FA"/>
+  <text x="330" y="189" font-family="Arial" font-size="12" fill="#2D5F9E" text-anchor="middle">筛选</text>
+  
+  <!-- 订单列表 -->
+  <!-- 订单1 - 待审核 -->
+  <rect x="20" y="214" width="350" height="140" rx="8" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="1"/>
+  
+  <text x="40" y="234" font-family="Arial" font-size="14" fill="#2D3748" font-weight="bold">订单号：DD20250615001</text>
+  <rect x="300" y="224" width="50" height="20" rx="10" fill="#FBD38D"/>
+  <text x="325" y="238" font-family="Arial" font-size="10" fill="#C05621" text-anchor="middle">待审核</text>
+  
+  <text x="40" y="254" font-family="Arial" font-size="12" fill="#718096">客户：广州众诚贸易有限公司</text>
+  <text x="40" y="274" font-family="Arial" font-size="12" fill="#718096">下单时间：2025-06-15 10:25:36</text>
+  <text x="40" y="294" font-family="Arial" font-size="12" fill="#718096">产品数量：3种 共45箱</text>
+  <text x="40" y="314" font-family="Arial" font-size="14" fill="#E53E3E" font-weight="bold">总金额：¥5,580.00</text>
+  
+  <rect x="220" y="299" width="70" height="30" rx="4" fill="#FFFFFF" stroke="#2D5F9E" stroke-width="1"/>
+  <text x="255" y="319" font-family="Arial" font-size="12" fill="#2D5F9E" text-anchor="middle">查看详情</text>
+  
+  <rect x="300" y="299" width="50" height="30" rx="4" fill="#2D5F9E"/>
+  <text x="325" y="319" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">审核</text>
+  
+  <!-- 订单2 - 待发货 -->
+  <rect x="20" y="364" width="350" height="140" rx="8" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="1"/>
+  
+  <text x="40" y="384" font-family="Arial" font-size="14" fill="#2D3748" font-weight="bold">订单号：DD20250614005</text>
+  <rect x="300" y="374" width="50" height="20" rx="10" fill="#BEE3F8"/>
+  <text x="325" y="388" font-family="Arial" font-size="10" fill="#2B6CB0" text-anchor="middle">待发货</text>
+  
+  <text x="40" y="404" font-family="Arial" font-size="12" fill="#718096">客户：深圳市民生超市连锁有限公司</text>
+  <text x="40" y="424" font-family="Arial" font-size="12" fill="#718096">下单时间：2025-06-14 16:42:18</text>
+  <text x="40" y="444" font-family="Arial" font-size="12" fill="#718096">产品数量：2种 共80箱</text>
+  <text x="40" y="464" font-family="Arial" font-size="14" fill="#E53E3E" font-weight="bold">总金额：¥9,120.00</text>
+  
+  <rect x="220" y="449" width="70" height="30" rx="4" fill="#FFFFFF" stroke="#2D5F9E" stroke-width="1"/>
+  <text x="255" y="469" font-family="Arial" font-size="12" fill="#2D5F9E" text-anchor="middle">查看详情</text>
+  
+  <rect x="300" y="449" width="50" height="30" rx="4" fill="#2D5F9E"/>
+  <text x="325" y="469" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">发货</text>
+  
+  <!-- 订单3 - 已发货 -->
+  <rect x="20" y="514" width="350" height="140" rx="8" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="1"/>
+  
+  <text x="40" y="534" font-family="Arial" font-size="14" fill="#2D3748" font-weight="bold">订单号：DD20250613002</text>
+  <rect x="300" y="524" width="50" height="20" rx="10" fill="#C6F6D5"/>
+  <text x="325" y="538" font-family="Arial" font-size="10" fill="#2F855A" text-anchor="middle">已发货</text>
+  
+  <text x="40" y="554" font-family="Arial" font-size="12" fill="#718096">客户：东莞市好又多商贸有限公司</text>
+  <text x="40" y="574" font-family="Arial" font-size="12" fill="#718096">下单时间：2025-06-13 09:15:47</text>
+  <text x="40" y="594" font-family="Arial" font-size="12" fill="#718096">发货时间：2025-06-13 14:30:22</text>
+  <text x="40" y="614" font-family="Arial" font-size="14" fill="#E53E3E" font-weight="bold">总金额：¥7,680.00</text>
+  
+  <rect x="220" y="599" width="70" height="30" rx="4" fill="#FFFFFF" stroke="#2D5F9E" stroke-width="1"/>
+  <text x="255" y="619" font-family="Arial" font-size="12" fill="#2D5F9E" text-anchor="middle">查看详情</text>
+  
+  <rect x="300" y="599" width="50" height="30" rx="4" fill="#718096"/>
+  <text x="325" y="619" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">物流</text>
+  
+  <!-- 订单4 - 已完成 -->
+  <rect x="20" y="664" width="350" height="100" rx="8" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="1"/>
+  
+  <text x="40" y="684" font-family="Arial" font-size="14" fill="#2D3748" font-weight="bold">订单号：DD20250610008</text>
+  <rect x="300" y="674" width="50" height="20" rx="10" fill="#E2E8F0"/>
+  <text x="325" y="688" font-family="Arial" font-size="10" fill="#4A5568" text-anchor="middle">已完成</text>
+  
+  <text x="40" y="704" font-family="Arial" font-size="12" fill="#718096">客户：佛山市顺德区乐购超市</text>
+  <text x="40" y="724" font-family="Arial" font-size="12" fill="#718096">完成时间：2025-06-12 16:48:33</text>
+  <text x="40" y="744" font-family="Arial" font-size="14" fill="#E53E3E" font-weight="bold">总金额：¥4,320.00</text>
+  
+  <!-- 导航栏 -->
+  <rect x="0" y="780" width="390" height="64" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="1"/>
+  
+  <!-- 首页 -->
+  <circle cx="65" cy="812" r="24" fill="#F5F7FA"/>
+  <text x="65" y="816" font-family="Arial" font-size="10" fill="#718096" text-anchor="middle">首页</text>
+  
+  <!-- 订单 -->
+  <circle cx="142" cy="812" r="24" fill="#EBF8FF"/>
+  <text x="142" y="816" font-family="Arial" font-size="10" fill="#2D5F9E" text-anchor="middle">订单</text>
+  
+  <!-- 产品 -->
+  <circle cx="219" cy="812" r="24" fill="#F5F7FA"/>
+  <text x="219" y="816" font-family="Arial" font-size="10" fill="#718096" text-anchor="middle">产品</text>
+  
+  <!-- 客户 -->
+  <circle cx="296" cy="812" r="24" fill="#F5F7FA"/>
+  <text x="296" y="816" font-family="Arial" font-size="10" fill="#718096" text-anchor="middle">客户</text>
+  
+  <!-- 我的 -->
+  <circle cx="373" cy="812" r="24" fill="#F5F7FA"/>
+  <text x="373" y="816" font-family="Arial" font-size="10" fill="#718096" text-anchor="middle">我的</text>
+</svg>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="280" viewBox="0 0 800 280" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- 背景 -->
+  <rect width="800" height="280" fill="#111827"/>
+  
+  <!-- 标题文本 -->
+  <text x="400" y="80" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="48" fill="#FFFFFF" text-anchor="middle" font-weight="700">开启企业数字化转型之旅</text>
+  
+  <!-- 副标题文本 -->
+  <text x="400" y="140" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="400" opacity="0.9">预约产品演示，享受专属定制化解决方案</text>
+  
+  <!-- 按钮容器 - 添加超链接包装和hover效果 -->
+  <!-- 免费预约演示按钮 -->
+  <a id="demo-btn" onclick="window.parent.bookDemo(); return false;" cursor="pointer">
+    <g transform="translate(100, 180)">
+      <rect id="demo-btn-bg" x="0" y="0" width="280" height="70" rx="10" fill="#2563EB" filter="url(#button-shadow)"/>
+      <text x="140" y="43" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="600">免费预约演示</text>
+    </g>
+  </a>
+  
+  <!-- 咨询专属方案按钮 -->
+  <a id="consult-btn" onclick="window.parent.consultSolution(); return false;" cursor="pointer">
+    <g transform="translate(420, 180)">
+      <rect id="consult-btn-bg" x="0" y="0" width="280" height="70" rx="10" fill="none" stroke="#2563EB" stroke-width="2" filter="url(#outline-shadow)"/>
+      <text x="140" y="43" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#2563EB" text-anchor="middle" font-weight="600">咨询专属方案</text>
+    </g>
+  </a>
+  
+  <!-- 添加阴影滤镜 -->
+  <defs>
+    <filter id="button-shadow" x="-10" y="-10" width="300" height="90" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset/>
+      <feGaussianBlur stdDeviation="5"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.145 0 0 0 0 0.388 0 0 0 0 0.922 0 0 0 0.5 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <filter id="outline-shadow" x="-10" y="-10" width="300" height="90" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.145 0 0 0 0 0.388 0 0 0 0 0.922 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <!-- 悬停时的效果 -->
+    <filter id="hover-glow" x="-20" y="-20" width="320" height="110" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset/>
+      <feGaussianBlur stdDeviation="8"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.145 0 0 0 0 0.388 0 0 0 0 0.922 0 0 0 0.7 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+  
+  <!-- 添加交互样式 -->
+  <style>
+    #demo-btn:hover #demo-btn-bg {
+      filter: url(#hover-glow);
+      fill: #1E40AF;
+    }
+    #consult-btn:hover #consult-btn-bg {
+      filter: url(#hover-glow);
+      fill: rgba(37, 99, 235, 0.1);
+    }
+    #demo-btn:active #demo-btn-bg {
+      fill: #1E3A8A;
+    }
+    #consult-btn:active #consult-btn-bg {
+      stroke: #1E40AF;
+      fill: rgba(37, 99, 235, 0.2);
+    }
+  </style>
+</svg> 

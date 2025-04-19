@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>客户案例 - onlysnow快销智链管理系统</title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/images/favicon.png">
+    <meta property="og:image" content="assets/images/snowflake-logo.png">
+    <meta itemprop="image" content="assets/images/snowflake-logo.png">
+    <meta name="description" content="onlysnow快销智链客户案例 - 了解我们如何帮助快消品企业实现数字化转型">
+    <meta property="og:description" content="onlysnow快销智链客户案例 - 了解我们如何帮助快消品企业实现数字化转型">
+    <meta property="og:title" content="客户案例 - onlysnow快销智链管理系统">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #1F57A4;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px 0;
+            color: white;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .header-content {
+            display: flex;
+            flex-direction: column;
+        }
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #1F57A4, #0A2B5E);
+            padding: 3px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .logo span {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li {
+            margin-left: 30px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #BDD7F7;
+        }
+        .main-content {
+            padding: 60px 0;
+        }
+        .page-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .page-title h1 {
+            font-size: 36px;
+            color: #1F57A4;
+            margin-bottom: 10px;
+        }
+        .page-title p {
+            font-size: 18px;
+            color: #64748b;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .cases-section {
+            margin-bottom: 80px;
+        }
+        .cases-header {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .cases-header h2 {
+            font-size: 28px;
+            color: #1F57A4;
+            margin-bottom: 15px;
+        }
+        .cases-header p {
+            font-size: 16px;
+            color: #64748b;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .case-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            margin-bottom: 50px;
+        }
+        .case-card-inner {
+            display: flex;
+            flex-direction: row;
+        }
+        .case-card:nth-child(even) .case-card-inner {
+            flex-direction: row-reverse;
+        }
+        .case-image {
+            flex: 1;
+            min-height: 400px;
+            background-size: cover;
+            background-position: center;
+        }
+        .case-content {
+            flex: 1;
+            padding: 40px;
+        }
+        .case-tag {
+            display: inline-block;
+            background-color: #E5F0FF;
+            color: #1F57A4;
+            padding: 5px 12px;
+            border-radius: 30px;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        .case-title {
+            font-size: 24px;
+            color: #1F57A4;
+            margin-bottom: 15px;
+        }
+        .case-description {
+            color: #64748b;
+            margin-bottom: 25px;
+        }
+        .case-results {
+            background-color: #F8FAFF;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+        .case-results h4 {
+            color: #1F57A4;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        .result-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+        .result-icon {
+            color: #1F57A4;
+            margin-right: 12px;
+            font-size: 16px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #1F57A4;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #0A2B5E;
+        }
+        .testimonials {
+            background-color: #F1F5FD;
+            padding: 30px;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+        .testimonial {
+            font-style: italic;
+            color: #4A5568;
+            margin-bottom: 20px;
+            position: relative;
+            padding-left: 30px;
+        }
+        .testimonial:before {
+            content: '"';
+            font-size: 40px;
+            color: #1F57A4;
+            position: absolute;
+            left: 0;
+            top: -10px;
+        }
+        .testimonial-author {
+            font-weight: 600;
+            color: #333;
+            font-style: normal;
+        }
+        .testimonial-role {
+            color: #64748b;
+            font-size: 14px;
+            font-style: normal;
+        }
+        .stats-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 60px 0;
+        }
+        .stat-item {
+            flex: 1;
+            min-width: 200px;
+            text-align: center;
+            padding: 20px;
+        }
+        .stat-number {
+            font-size: 40px;
+            font-weight: 700;
+            color: #1F57A4;
+            margin-bottom: 10px;
+        }
+        .stat-label {
+            color: #64748b;
+            font-size: 18px;
+        }
+        footer {
+            background-color: #0A2B5E;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        .social-links {
+            margin: 1rem 0;
+        }
+        .social-links a {
+            color: white;
+            font-size: 1.5rem;
+            margin: 0 0.5rem;
+            transition: color 0.3s ease;
+        }
+        .social-links a:hover {
+            color: #64B5F6;
+        }
+        .copyright {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 992px) {
+            .case-card-inner, .case-card:nth-child(even) .case-card-inner {
+                flex-direction: column;
+            }
+            .case-image {
+                min-height: 250px;
+            }
+            .stat-item {
+                min-width: 150px;
+                padding: 15px 10px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .logo {
+                margin-bottom: 15px;
+            }
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            nav ul li {
+                margin: 0 10px 10px;
+            }
+            .page-title h1 {
+                font-size: 28px;
+            }
+            .page-title p {
+                font-size: 16px;
+                padding: 0 15px;
+            }
+            .stats-container {
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+            .stat-item {
+                flex: 0 0 45%;
+            }
+            .case-content {
+                padding: 30px 20px;
+            }
+            .case-title {
+                font-size: 22px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+            .case-image {
+                min-height: 200px;
+            }
+            .stat-item {
+                flex: 0 0 100%;
+            }
+            .stats-container {
+                margin: 30px 0;
+            }
+            .case-content {
+                padding: 25px 15px;
+            }
+            .testimonial {
+                padding-left: 25px;
+            }
+            .testimonial:before {
+                font-size: 30px;
+            }
+            .cta-button {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="nav-container">
+                    <div class="logo">
+                        <img src="assets/images/snowflake-logo.png" alt="onlysnow Logo">
+                        <span>onlysnow快销智链</span>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">首页</a></li>
+                            <li><a href="products.html">产品</a></li>
+                            <li><a href="solutions.html">解决方案</a></li>
+                            <li><a href="cases.html">客户案例</a></li>
+                            <li><a href="about.html">关于我们</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="page-title">
+                <h1>客户案例</h1>
+                <p>了解我们如何帮助快消品企业实现数字化转型，提升运营效率，创造更大价值</p>
+            </div>
+            
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number">200+</div>
+                    <div class="stat-label">成功项目</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">85%</div>
+                    <div class="stat-label">平均效率提升</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">300%</div>
+                    <div class="stat-label">平均ROI</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">行业覆盖</div>
+                </div>
+            </div>
+            
+            <section class="cases-section">
+                <div class="case-card">
+                    <div class="case-card-inner">
+                        <div class="case-image" style="background-image: url('assets/images/screens/admin_dashboard.svg');"></div>
+                        <div class="case-content">
+                            <div class="case-tag">食品饮料行业</div>
+                            <h3 class="case-title">全国性饮料品牌数字化转型</h3>
+                            <p class="case-description">帮助一家年销售额超过20亿的全国性饮料品牌实现全渠道销售管理、智能供应链优化与数据分析平台搭建，解决多渠道数据孤岛、库存积压与决策滞后问题。</p>
+                            
+                            <div class="case-results">
+                                <h4>项目成果</h4>
+                                <div class="result-item">
+                                    <i class="fa fa-check-circle result-icon"></i>
+                                    <span>渠道库存周转率提升40%，降低积压成本3000万/年</span>
+                                </div>
+                                <div class="result-item">
+                                    <i class="fa fa-check-circle result-icon"></i>
+                                    <span>订单处理效率提升65%，人力成本降低30%</span>
+                                </div>
+                                <div class="result-item">
+                                    <i class="fa fa-check-circle result-icon"></i>
+                                    <span>销售预测准确率达85%，减少缺货率15%</span>
+                                </div>
+                            </div>
+                            
+                            <div class="testimonials">
+                                <div class="testimonial">
+                                    "onlysnow快销智链帮助我们解决了长期困扰的多渠道协同难题，数据分析平台为我们提供了前所未有的业务洞察，极大提升了我们的市场响应速度与决策质量。"
+                                    <div class="testimonial-author">张明</div>
+                                    <div class="testimonial-role">销售副总裁</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-card">
+                    <div class="case-card-inner">
+                        <div class="case-image" style="background-image: url('assets/images/screens/sales_dashboard.svg');"></div>
+                        <div class="case-content">
+                            <div class="case-tag">零售快消</div>
+                            <h3 class="case-title">区域连锁超市数字化改造</h3>
+                            <p class="case-description">为华东地区知名连锁超市提供全面的数字化解决方案，包括智能采购系统、店铺销售分析平台与供应商协同系统，解决库存管理混乱、供应链协同低效等问题。</p>
+                            
+                            <div class="case-results">
+                                <h4>项目成果</h4>
+                                <div class="result-item">
+                                    <i class="fa fa-check-circle result-icon"></i>
+                                    <span>商品缺货率从8%降至1.5%，顾客满意度提升30%</span>
+                                </div>
+                                <div class="result-item">
+                                    <i class="fa fa-check-circle result-icon"></i>
+                                    <span>库存水平降低25%，释放营运资金3500万</span>
+                                </div>
+                                <div class="result-item">
+                                    <i class="fa fa-check-circle result-icon"></i>
+                                    <span>供应商协同效率提升50%，采购成本降低8%</span>
+                                </div>
+                            </div>
+                            
+                            <div class="testimonials">
+                                <div class="testimonial">
+                                    "实施onlysnow快销智链系统后，我们的运营效率得到了显著提升，库存周转更加高效，采购成本明显下降。更重要的是，顾客满意度大幅提高，业务增长超出预期。"
+                                    <div class="testimonial-author">李强</div>
+                                    <div class="testimonial-role">运营总监</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-card">
+                    <div class="case-card-inner">
+                        <div class="case-image" style="background-image: url('assets/images/screens/logistics.svg');"></div>
+                        <div class="case-content">
+                            <div class="case-tag">物流配送</div>
+                            <h3 class="case-title">快消品物流配送数字化升级</h3>
+                            <p class="case-description">为华南地区大型快消品物流企业提供物流调度系统、多点配送优化平台与车辆管理系统，解决配送路线规划低效、车辆调度混乱等问题。</p>
+                            
+                            <div class="case-results">
+                                <h4>项目成果</h4>
+                                <div class="result-item">
+                                    <i class="fa fa-check-circle result-icon"></i>
+                                    <span>配送路线优化后，配送成本降低23%</span>
+                                </div>
+                                <div class="result-item">
+                                    <i class="fa fa-check-circle result-icon"></i>
+                                    <span>车辆利用率提升35%，减少车队规模15%</span>
+                                </div>
+                                <div class="result-item">
+                                    <i class="fa fa-check-circle result-icon"></i>
+                                    <span>配送准时率从82%提升至97%，客户满意度大幅提升</span>
+                                </div>
+                            </div>
+                            
+                            <div class="testimonials">
+                                <div class="testimonial">
+                                    "onlysnow快销智链的物流管理系统帮助我们实现了配送过程的数字化管理，AI路线规划功能极大优化了我们的配送效率，降低了运营成本，提高了服务质量。"
+                                    <div class="testimonial-author">陈伟</div>
+                                    <div class="testimonial-role">物流负责人</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <div style="text-align: center; margin: 50px 0;">
+                <a href="consult-solution.html" class="cta-button">咨询专属方案</a>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fa fa-weixin"></i></a>
+                <a href="#"><i class="fa fa-weibo"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+            <p class="copyright">版权所有 © 2025 onlysnow 刘景园 | 联系电话：15974148955 | 邮箱：1257381502@qq.com</p>
+        </div>
+    </footer>
+</body>
+</html> 

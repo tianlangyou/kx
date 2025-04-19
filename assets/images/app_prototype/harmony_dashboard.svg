@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3570EC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8833FF;stop-opacity:1" />
+    </linearGradient>
+    <style>
+      @font-face {
+        font-family: 'HarmonyOS Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('HarmonyOS Sans');
+      }
+      .status-bar {
+        font-family: 'HarmonyOS Sans', sans-serif;
+        font-size: 12px;
+        fill: #FFFFFF;
+      }
+      .header-text {
+        font-family: 'HarmonyOS Sans', sans-serif;
+        font-weight: bold;
+        fill: #ffffff;
+      }
+      .title {
+        font-family: 'HarmonyOS Sans', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        fill: #333333;
+      }
+      .card-title {
+        font-family: 'HarmonyOS Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        fill: #333333;
+      }
+      .text {
+        font-family: 'HarmonyOS Sans', sans-serif;
+        font-size: 14px;
+        fill: #333333;
+      }
+      .label {
+        font-family: 'HarmonyOS Sans', sans-serif;
+        font-size: 12px;
+        fill: #666666;
+      }
+      .value {
+        font-family: 'HarmonyOS Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        fill: #3570EC;
+      }
+      .nav-text {
+        font-family: 'HarmonyOS Sans', sans-serif;
+        font-size: 10px;
+        fill: #999999;
+      }
+      .nav-text-active {
+        font-family: 'HarmonyOS Sans', sans-serif;
+        font-size: 10px;
+        fill: #3570EC;
+      }
+      .card {
+        fill: white;
+        rx: 16;
+        ry: 16;
+        filter: drop-shadow(0px 4px 8px rgba(0,0,0,0.05));
+      }
+    </style>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#F5F7FA" />
+  
+  <!-- 设计说明 -->
+  <text x="150" y="40" font-family="'HarmonyOS Sans', sans-serif" font-size="24px" font-weight="bold" fill="#3570EC">HarmonyOS应用原型 - 工作台界面</text>
+  
+  <!-- 设备框架 -->
+  <rect x="300" y="80" width="280" height="480" rx="24" ry="24" fill="#121212" />
+  <rect x="307" y="87" width="266" height="466" rx="20" ry="20" fill="#F5F7FA" />
+  
+  <!-- 状态栏 -->
+  <rect x="307" y="87" width="266" height="24" fill="url(#headerGradient)" />
+  <text x="325" y="103" class="status-bar">9:41</text>
+  <text x="550" y="103" text-anchor="end" class="status-bar">●●●</text>
+  
+  <!-- 头部区域 - HarmonyOS风格 -->
+  <rect x="307" y="111" width="266" height="60" fill="url(#headerGradient)" />
+  <text x="340" y="145" font-family="'HarmonyOS Sans', sans-serif" font-size="20px" font-weight="500" fill="#FFFFFF">销售工作台</text>
+  <circle cx="535" cy="141" r="18" fill="#FFFFFF" opacity="0.2" />
+  <text x="535" y="146" text-anchor="middle" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#FFFFFF">王</text>
+  
+  <!-- 欢迎区域 - ArkUI卡片 -->
+  <rect x="317" y="181" width="246" height="60" class="card" />
+  <text x="332" y="210" font-family="'HarmonyOS Sans', sans-serif" font-size="16px" fill="#333333">上午好，王经理</text>
+  <text x="332" y="230" font-family="'HarmonyOS Sans', sans-serif" font-size="12px" fill="#666666">今日有 5 个待处理任务</text>
+  
+  <!-- 数据卡片1 - ArkUI卡片 -->
+  <rect x="317" y="251" width="116" height="100" class="card" />
+  <text x="332" y="276" class="label">本月销售额</text>
+  <text x="332" y="301" class="value">¥128.65万</text>
+  <text x="332" y="321" font-family="'HarmonyOS Sans', sans-serif" font-size="12px" fill="#4CAF50">↑ 12.5%</text>
+  
+  <!-- 数据卡片2 - ArkUI卡片 -->
+  <rect x="447" y="251" width="116" height="100" class="card" />
+  <text x="462" y="276" class="label">订单完成率</text>
+  <text x="462" y="301" class="value">87.5%</text>
+  <text x="462" y="321" font-family="'HarmonyOS Sans', sans-serif" font-size="12px" fill="#4CAF50">↑ 5.2%</text>
+  
+  <!-- 销售数据图表 - ArkUI卡片 -->
+  <rect x="317" y="361" width="246" height="120" class="card" />
+  <text x="332" y="386" class="card-title">销售趋势</text>
+  
+  <!-- 简易线图 - 鸿蒙数据可视化风格 -->
+  <defs>
+    <linearGradient id="chartGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3570EC;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#3570EC;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <path d="M332,446 L352,436 L372,441 L392,426 L412,431 L432,416 L452,406 L472,411 L492,401 L512,386 L532,396 L532,446 Z" 
+        fill="url(#chartGradient)" />
+  
+  <polyline points="332,446 352,436 372,441 392,426 412,431 432,416 452,406 472,411 492,401 512,386 532,396" 
+            fill="none" stroke="#3570EC" stroke-width="2" />
+  
+  <circle cx="332" cy="446" r="4" fill="#FFFFFF" stroke="#3570EC" stroke-width="2" />
+  <circle cx="352" cy="436" r="4" fill="#FFFFFF" stroke="#3570EC" stroke-width="2" />
+  <circle cx="372" cy="441" r="4" fill="#FFFFFF" stroke="#3570EC" stroke-width="2" />
+  <circle cx="392" cy="426" r="4" fill="#FFFFFF" stroke="#3570EC" stroke-width="2" />
+  <circle cx="412" cy="431" r="4" fill="#FFFFFF" stroke="#3570EC" stroke-width="2" />
+  <circle cx="432" cy="416" r="4" fill="#FFFFFF" stroke="#3570EC" stroke-width="2" />
+  <circle cx="452" cy="406" r="4" fill="#FFFFFF" stroke="#3570EC" stroke-width="2" />
+  <circle cx="472" cy="411" r="4" fill="#FFFFFF" stroke="#3570EC" stroke-width="2" />
+  <circle cx="492" cy="401" r="4" fill="#FFFFFF" stroke="#3570EC" stroke-width="2" />
+  <circle cx="512" cy="386" r="4" fill="#FFFFFF" stroke="#3570EC" stroke-width="2" />
+  <circle cx="532" cy="396" r="4" fill="#FFFFFF" stroke="#3570EC" stroke-width="2" />
+  
+  <line x1="332" y1="450" x2="532" y2="450" stroke="#E0E0E0" stroke-width="1" />
+  
+  <text x="332" y="465" font-family="'HarmonyOS Sans', sans-serif" font-size="10px" fill="#999999">5/1</text>
+  <text x="532" y="465" text-anchor="end" font-family="'HarmonyOS Sans', sans-serif" font-size="10px" fill="#999999">5/31</text>
+  
+  <!-- 悬浮操作按钮 - 鸿蒙OS风格 -->
+  <circle cx="535" cy="460" r="24" fill="url(#headerGradient)" filter="drop-shadow(0px 4px 8px rgba(53,112,236,0.3))" />
+  <text x="535" y="466" text-anchor="middle" font-family="'HarmonyOS Sans', sans-serif" font-size="20px" fill="#FFFFFF">+</text>
+  
+  <!-- 底部导航栏 - 鸿蒙OS风格 -->
+  <rect x="307" y="485" width="266" height="68" fill="#FFFFFF" rx="0" ry="0" />
+  <rect x="307" y="485" width="266" height="1" fill="#F0F0F0" />
+  
+  <circle cx="340" cy="513" r="20" fill="#F5F7FA" />
+  <text x="340" y="543" text-anchor="middle" class="nav-text">首页</text>
+  
+  <circle cx="395" cy="513" r="20" fill="#EAEFFF" />
+  <text x="395" y="543" text-anchor="middle" class="nav-text-active">工作台</text>
+  
+  <circle cx="450" cy="513" r="20" fill="#F5F7FA" />
+  <text x="450" y="543" text-anchor="middle" class="nav-text">订单</text>
+  
+  <circle cx="505" cy="513" r="20" fill="#F5F7FA" />
+  <text x="505" y="543" text-anchor="middle" class="nav-text">客户</text>
+  
+  <circle cx="560" cy="513" r="20" fill="#F5F7FA" />
+  <text x="560" y="543" text-anchor="middle" class="nav-text">我的</text>
+  
+  <!-- HarmonyOS特性说明 -->
+  <rect x="30" y="150" width="220" height="300" fill="none" stroke="#E0E0E0" stroke-width="1" rx="16" ry="16" />
+  <text x="50" y="180" font-family="'HarmonyOS Sans', sans-serif" font-size="16px" font-weight="bold" fill="#3570EC">HarmonyOS设计特点</text>
+  <text x="50" y="210" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• ArkUI/HarmonyOS设计语言</text>
+  <text x="50" y="235" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• 圆润卡片设计</text>
+  <text x="50" y="260" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• 渐变色彩应用</text>
+  <text x="50" y="285" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• 精致阴影效果</text>
+  <text x="50" y="310" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• HarmonyOS Sans字体</text>
+  <text x="50" y="335" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• 独特的导航交互</text>
+  <text x="50" y="360" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• 华为设计规范</text>
+  <text x="50" y="385" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• 一次开发,多端部署</text>
+  <text x="50" y="410" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• 全场景设计理念</text>
+  
+  <!-- 功能说明 -->
+  <rect x="600" y="150" width="170" height="300" fill="none" stroke="#E0E0E0" stroke-width="1" rx="16" ry="16" />
+  <text x="620" y="180" font-family="'HarmonyOS Sans', sans-serif" font-size="16px" font-weight="bold" fill="#3570EC">工作台功能</text>
+  <text x="620" y="210" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• 销售数据概览</text>
+  <text x="620" y="235" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• 实时业绩监控</text>
+  <text x="620" y="260" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• 个性化任务提醒</text>
+  <text x="620" y="285" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• 销售趋势图表</text>
+  <text x="620" y="310" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• 华为生态互联</text>
+  <text x="620" y="335" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• 超级设备连接</text>
+  <text x="620" y="360" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• 智慧助手集成</text>
+  <text x="620" y="385" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• 多设备同步</text>
+  <text x="620" y="410" font-family="'HarmonyOS Sans', sans-serif" font-size="14px" fill="#333333">• 服务卡片支持</text>
+  
+  <!-- 版权信息 -->
+  <text x="440" y="580" text-anchor="middle" font-family="'HarmonyOS Sans', sans-serif" font-size="12px" fill="#999999">© 2025 onlysnow 刘景园</text>
+</svg> 

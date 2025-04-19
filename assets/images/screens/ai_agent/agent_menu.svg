@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="390" height="844" fill="#F8FAFC"/>
+  
+  <!-- 状态栏 -->
+  <rect width="390" height="44" fill="#0E7490" filter="url(#shadow)"/>
+  <text x="195" y="28" font-family="PingFang SC, Arial, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="600">功能菜单</text>
+  
+  <!-- 返回按钮 -->
+  <path d="M25 27 L15 22 L25 17" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- 搜索栏 -->
+  <rect x="16" y="60" width="358" height="48" rx="24" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <text x="55" y="88" font-family="PingFang SC, Arial, sans-serif" font-size="15" fill="#94A3B8">搜索功能...</text>
+  <!-- 搜索图标 -->
+  <circle cx="37" cy="84" r="9" stroke="#94A3B8" stroke-width="2" fill="none"/>
+  <path d="M44 91 L51 98" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- 功能分类标题 -->
+  <text x="20" y="130" font-family="PingFang SC, Arial, sans-serif" font-size="16" fill="#0F172A" font-weight="600">订单管理</text>
+  
+  <!-- 订单管理功能 - 第一行 -->
+  <rect x="16" y="140" width="110" height="110" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <circle cx="71" cy="175" r="25" fill="#E0F2FE"/>
+  <rect x="61" y="165" width="20" height="25" rx="2" stroke="#0369A1" stroke-width="2" fill="none"/>
+  <line x1="66" y1="170" x2="76" y2="170" stroke="#0369A1" stroke-width="1.5"/>
+  <line x1="66" y1="175" x2="76" y2="175" stroke="#0369A1" stroke-width="1.5"/>
+  <text x="71" y="215" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#0F172A" text-anchor="middle">新建订单</text>
+  
+  <rect x="138" y="140" width="110" height="110" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <circle cx="193" cy="175" r="25" fill="#E0F2FE"/>
+  <rect x="181" y="167" width="24" height="20" rx="2" stroke="#0369A1" stroke-width="2" fill="none"/>
+  <path d="M181 172 L205 172" stroke="#0369A1" stroke-width="1.5"/>
+  <path d="M193 183 L193 195" stroke="#0369A1" stroke-width="2" stroke-linecap="round"/>
+  <path d="M188 190 L198 190" stroke="#0369A1" stroke-width="2" stroke-linecap="round"/>
+  <text x="193" y="215" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#0F172A" text-anchor="middle">订单跟踪</text>
+  
+  <rect x="260" y="140" width="110" height="110" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <circle cx="315" cy="175" r="25" fill="#E0F2FE"/>
+  <path d="M305 175 L310 180 L325 165" stroke="#0369A1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="315" y="215" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#0F172A" text-anchor="middle">批量审核</text>
+  
+  <!-- 功能分类标题 -->
+  <text x="20" y="275" font-family="PingFang SC, Arial, sans-serif" font-size="16" fill="#0F172A" font-weight="600">客户管理</text>
+  
+  <!-- 客户管理功能 - 第二行 -->
+  <rect x="16" y="285" width="110" height="110" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <circle cx="71" cy="320" r="25" fill="#E0F7FF"/>
+  <circle cx="71" cy="315" r="12" stroke="#0891B2" stroke-width="2" fill="none"/>
+  <path d="M59 338 C59 329 83 329 83 338" stroke="#0891B2" stroke-width="2" fill="none"/>
+  <text x="71" y="360" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#0F172A" text-anchor="middle">客户档案</text>
+  
+  <rect x="138" y="285" width="110" height="110" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <circle cx="193" cy="320" r="25" fill="#E0F7FF"/>
+  <path d="M183 322 L192 313 L203 322 L192 331 Z" stroke="#0891B2" stroke-width="2" fill="none" stroke-linejoin="round"/>
+  <text x="193" y="360" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#0F172A" text-anchor="middle">拜访记录</text>
+  
+  <rect x="260" y="285" width="110" height="110" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <circle cx="315" cy="320" r="25" fill="#E0F7FF"/>
+  <path d="M305 325 L325 315 M315 310 L315 330" stroke="#0891B2" stroke-width="2" stroke-linecap="round"/>
+  <text x="315" y="360" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#0F172A" text-anchor="middle">客户分析</text>
+  
+  <!-- 功能分类标题 -->
+  <text x="20" y="420" font-family="PingFang SC, Arial, sans-serif" font-size="16" fill="#0F172A" font-weight="600">库存管理</text>
+  
+  <!-- 库存管理功能 - 第三行 -->
+  <rect x="16" y="430" width="110" height="110" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <circle cx="71" cy="465" r="25" fill="#DCFCE7"/>
+  <rect x="58" y="455" width="26" height="20" rx="2" stroke="#059669" stroke-width="2" fill="none"/>
+  <rect x="64" y="455" width="14" height="20" stroke="#059669" stroke-width="2" fill="none"/>
+  <rect x="58" y="475" width="26" height="6" rx="1" stroke="#059669" stroke-width="2" fill="none"/>
+  <text x="71" y="505" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#0F172A" text-anchor="middle">库存查询</text>
+  
+  <rect x="138" y="430" width="110" height="110" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <circle cx="193" cy="465" r="25" fill="#DCFCE7"/>
+  <path d="M183 463 L203 463 M183 468 L203 468 M183 473 L195 473" stroke="#059669" stroke-width="2" stroke-linecap="round"/>
+  <path d="M183 458 L178 458 L178 478 L183 478" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="193" y="505" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#0F172A" text-anchor="middle">盘点管理</text>
+  
+  <rect x="260" y="430" width="110" height="110" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <circle cx="315" cy="465" r="25" fill="#DCFCE7"/>
+  <path d="M305 460 L325 470 L305 480" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="315" y="505" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#0F172A" text-anchor="middle">库存调拨</text>
+  
+  <!-- 功能分类标题 -->
+  <text x="20" y="565" font-family="PingFang SC, Arial, sans-serif" font-size="16" fill="#0F172A" font-weight="600">智能分析</text>
+  
+  <!-- 智能分析功能 - 第四行 -->
+  <rect x="16" y="575" width="110" height="110" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <circle cx="71" cy="610" r="25" fill="#F0F9FF"/>
+  <path d="M61 618 L71 608 L81 618" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="71" y="650" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#0F172A" text-anchor="middle">销售趋势</text>
+  
+  <rect x="138" y="575" width="110" height="110" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <circle cx="193" cy="610" r="25" fill="#F0F9FF"/>
+  <path d="M185 615 L193 605 L201 615" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="193" cy="605" r="3" fill="#0284C7"/>
+  <text x="193" y="650" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#0F172A" text-anchor="middle">业绩统计</text>
+  
+  <rect x="260" y="575" width="110" height="110" rx="12" fill="#FFFFFF" filter="url(#card-shadow)"/>
+  <circle cx="315" cy="610" r="25" fill="#F0F9FF"/>
+  <path d="M305 605 L315 605 L315 615 L325 615" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="315" y="650" font-family="PingFang SC, Arial, sans-serif" font-size="14" fill="#0F172A" text-anchor="middle">智能预测</text>
+  
+  <!-- 底部导航栏 -->
+  <rect x="0" y="774" width="390" height="70" fill="#FFFFFF" filter="url(#navbar-shadow)"/>
+  
+  <!-- 首页图标 -->
+  <g>
+    <rect x="15" y="784" width="70" height="50" fill="#FFFFFF"/>
+    <path d="M50 794 L30 809 L30 829 L70 829 L70 809 Z" stroke="#94A3B8" stroke-width="2" fill="none" stroke-linejoin="round"/>
+    <text x="50" y="852" font-family="PingFang SC, Arial, sans-serif" font-size="12" fill="#94A3B8" text-anchor="middle">首页</text>
+  </g>
+  
+  <!-- 订单图标 -->
+  <g>
+    <rect x="95" y="784" width="70" height="50" fill="#FFFFFF"/>
+    <rect x="110" y="794" width="40" height="35" stroke="#94A3B8" stroke-width="2" fill="none" rx="3" stroke-linejoin="round"/>
+    <line x1="110" y1="804" x2="150" y2="804" stroke="#94A3B8" stroke-width="2"/>
+    <line x1="115" y1="811" x2="125" y2="811" stroke="#94A3B8" stroke-width="1.5"/>
+    <line x1="115" y1="818" x2="140" y2="818" stroke="#94A3B8" stroke-width="1.5"/>
+    <text x="130" y="852" font-family="PingFang SC, Arial, sans-serif" font-size="12" fill="#94A3B8" text-anchor="middle">订单</text>
+  </g>
+  
+  <!-- 对话图标 -->
+  <g>
+    <rect x="175" y="784" width="70" height="50" fill="#FFFFFF"/>
+    <circle cx="210" cy="805" r="15" fill="none" stroke="#94A3B8" stroke-width="2"/>
+    <path d="M198 798 L222 798 M198 805 L222 805 M198 812 L212 812" stroke="#94A3B8" stroke-width="1.5"/>
+    <text x="210" y="852" font-family="PingFang SC, Arial, sans-serif" font-size="12" fill="#94A3B8" text-anchor="middle">对话</text>
+  </g>
+  
+  <!-- 菜单图标 (激活状态) -->
+  <g>
+    <rect x="255" y="784" width="70" height="50" fill="#FFFFFF"/>
+    <path d="M272 795 L307 795 M272 805 L307 805 M272 815 L307 815" stroke="#0E7490" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="290" y="852" font-family="PingFang SC, Arial, sans-serif" font-size="12" fill="#0E7490" text-anchor="middle" font-weight="600">菜单</text>
+    <circle cx="290" cy="780" r="4" fill="#0E7490"/>
+  </g>
+  
+  <!-- 我的图标 -->
+  <g>
+    <rect x="325" y="784" width="50" height="50" fill="#FFFFFF"/>
+    <circle cx="350" cy="799" r="10" stroke="#94A3B8" stroke-width="2" fill="none"/>
+    <path d="M335 824 C335 814 365 814 365 824" stroke="#94A3B8" stroke-width="2" fill="none"/>
+    <text x="350" y="852" font-family="PingFang SC, Arial, sans-serif" font-size="12" fill="#94A3B8" text-anchor="middle">我的</text>
+  </g>
+  
+  <!-- 添加阴影滤镜 -->
+  <defs>
+    <filter id="shadow" x="-4" y="-4" width="398" height="52" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="1"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <filter id="card-shadow" x="-2" y="-2" width="362" height="132" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="1"/>
+      <feGaussianBlur stdDeviation="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <filter id="navbar-shadow" x="0" y="772" width="390" height="74" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="-2"/>
+      <feGaussianBlur stdDeviation="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+</svg> 

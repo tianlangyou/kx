@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="390" height="844" fill="#F5F7FA"/>
+  
+  <!-- 状态栏 -->
+  <rect width="390" height="44" fill="#2D5F9E"/>
+  <text x="195" y="27" font-family="Arial" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="bold">快销通</text>
+  
+  <!-- 用户信息栏 -->
+  <rect x="0" y="44" width="390" height="80" fill="#FFFFFF"/>
+  <circle cx="45" cy="84" r="24" fill="#2D5F9E"/>
+  <text x="45" y="89" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">厂</text>
+  <text x="85" y="74" font-family="Arial" font-size="16" fill="#2D3748" font-weight="bold">福建食品有限公司</text>
+  <text x="85" y="94" font-family="Arial" font-size="12" fill="#718096">厂家管理员</text>
+  <circle cx="345" cy="84" r="16" fill="#F5F7FA"/>
+  <text x="345" y="88" font-family="Arial" font-size="12" fill="#718096" text-anchor="middle">消息</text>
+  
+  <!-- 主要数据卡片 -->
+  <rect x="20" y="140" width="165" height="100" rx="8" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="1"/>
+  <text x="40" y="165" font-family="Arial" font-size="12" fill="#718096">今日订单</text>
+  <text x="40" y="195" font-family="Arial" font-size="24" fill="#2D3748" font-weight="bold">28</text>
+  <text x="40" y="220" font-family="Arial" font-size="12" fill="#48BB78">↑ 12.4%</text>
+  
+  <rect x="205" y="140" width="165" height="100" rx="8" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="1"/>
+  <text x="225" y="165" font-family="Arial" font-size="12" fill="#718096">今日销售额</text>
+  <text x="225" y="195" font-family="Arial" font-size="24" fill="#2D3748" font-weight="bold">¥45,628</text>
+  <text x="225" y="220" font-family="Arial" font-size="12" fill="#48BB78">↑ 8.7%</text>
+  
+  <rect x="20" y="250" width="165" height="100" rx="8" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="1"/>
+  <text x="40" y="275" font-family="Arial" font-size="12" fill="#718096">新增客户</text>
+  <text x="40" y="305" font-family="Arial" font-size="24" fill="#2D3748" font-weight="bold">5</text>
+  <text x="40" y="330" font-family="Arial" font-size="12" fill="#48BB78">↑ 2</text>
+  
+  <rect x="205" y="250" width="165" height="100" rx="8" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="1"/>
+  <text x="225" y="275" font-family="Arial" font-size="12" fill="#718096">待处理订单</text>
+  <text x="225" y="305" font-family="Arial" font-size="24" fill="#2D3748" font-weight="bold">12</text>
+  <text x="225" y="330" font-family="Arial" font-size="12" fill="#F56565">需处理</text>
+  
+  <!-- 热销产品区域 -->
+  <rect x="20" y="370" width="350" height="200" rx="8" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="1"/>
+  <text x="40" y="395" font-family="Arial" font-size="16" fill="#2D3748" font-weight="bold">热销产品</text>
+  
+  <!-- 产品1 -->
+  <rect x="40" y="410" width="310" height="40" rx="4" fill="#F7FAFC"/>
+  <text x="50" y="435" font-family="Arial" font-size="14" fill="#2D3748">椰子水饮料 500ml</text>
+  <text x="320" y="435" font-family="Arial" font-size="14" fill="#2D3748" text-anchor="end">1,256箱</text>
+  
+  <!-- 产品2 -->
+  <rect x="40" y="460" width="310" height="40" rx="4" fill="#F7FAFC"/>
+  <text x="50" y="485" font-family="Arial" font-size="14" fill="#2D3748">果汁饮料 330ml</text>
+  <text x="320" y="485" font-family="Arial" font-size="14" fill="#2D3748" text-anchor="end">986箱</text>
+  
+  <!-- 产品3 -->
+  <rect x="40" y="510" width="310" height="40" rx="4" fill="#F7FAFC"/>
+  <text x="50" y="535" font-family="Arial" font-size="14" fill="#2D3748">矿泉水 550ml</text>
+  <text x="320" y="535" font-family="Arial" font-size="14" fill="#2D3748" text-anchor="end">845箱</text>
+  
+  <!-- 促销活动区域 -->
+  <rect x="20" y="590" width="350" height="120" rx="8" fill="#FFF5F5" stroke="#FED7D7" stroke-width="1"/>
+  <text x="40" y="615" font-family="Arial" font-size="16" fill="#E53E3E" font-weight="bold">当前促销活动</text>
+  <text x="40" y="640" font-family="Arial" font-size="14" fill="#4A5568">"夏日畅饮"活动进行中</text>
+  <text x="40" y="660" font-family="Arial" font-size="12" fill="#718096">2025/06/01 - 2025/06/30</text>
+  <rect x="40" y="675" width="100" height="24" rx="12" fill="#E53E3E"/>
+  <text x="90" y="692" font-family="Arial" font-size="12" fill="#FFFFFF" text-anchor="middle">查看详情</text>
+  
+  <!-- 导航栏 -->
+  <rect x="0" y="780" width="390" height="64" fill="#FFFFFF" stroke="#E6EAF0" stroke-width="1"/>
+  
+  <!-- 首页 -->
+  <circle cx="65" cy="812" r="24" fill="#EBF8FF"/>
+  <text x="65" y="816" font-family="Arial" font-size="10" fill="#2D5F9E" text-anchor="middle">首页</text>
+  
+  <!-- 订单 -->
+  <circle cx="142" cy="812" r="24" fill="#F5F7FA"/>
+  <text x="142" y="816" font-family="Arial" font-size="10" fill="#718096" text-anchor="middle">订单</text>
+  
+  <!-- 产品 -->
+  <circle cx="219" cy="812" r="24" fill="#F5F7FA"/>
+  <text x="219" y="816" font-family="Arial" font-size="10" fill="#718096" text-anchor="middle">产品</text>
+  
+  <!-- 客户 -->
+  <circle cx="296" cy="812" r="24" fill="#F5F7FA"/>
+  <text x="296" y="816" font-family="Arial" font-size="10" fill="#718096" text-anchor="middle">客户</text>
+  
+  <!-- 我的 -->
+  <circle cx="373" cy="812" r="24" fill="#F5F7FA"/>
+  <text x="373" y="816" font-family="Arial" font-size="10" fill="#718096" text-anchor="middle">我的</text>
+</svg>
